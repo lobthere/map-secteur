@@ -1,3 +1,673 @@
 {
-    
+    "Entreprise": "externatic",
+    "annee": 2025,
+    "secteur": [{
+            "secteur-nom": "DEV FRONT END",
+            "id": "plein bold",
+            "app": [{
+                "app-nom": "Dev",
+                "id": "plein lower",
+                "langage-cat": [{
+                    "langage-cat-nom": "Javascript",
+                    "id": "vide bold",
+                    "framework": [{
+                        "framework-nom": "Framework",
+                        "id":"vide bold",
+                        "framework-lib": [{
+                            "framework-lib-nom": "Angular",
+                            "description": "template",
+                            "id": "vide lower"
+                            },
+                            {
+                                "framework-lib-nom": "Angular.js",
+                                "description": "template",
+                                "id":"vide lower"
+                            },
+                            {
+                                "framework-lib-nom": "Ember.js",
+                                "description": "template",
+                                "id":"vide lower"
+                            },
+                            {
+                                "framework-lib-nom": "React.js",
+                                "description": "template",
+                                "id":"vide lower"
+                            },
+                            {
+                                "framework-lib-nom": "JSF/Jakarta faces",
+                                "description": "template",
+                                "id":"vide lower"
+                            },
+                            {
+                                "framework-lib-nom": "Vue.js",
+                                "description": "template",
+                                "id":"vide lower"
+                            },
+                            {
+                                "framework-lib-nom": "Svelte",
+                                "description": "template",
+                                "id":"vide lower"
+                            },
+                            {
+                                "framework-lib-nom": "Backbone.js",
+                                "description": "template",
+                                "id":"vide lower"
+                            },
+                            {
+                                "framework-lib-nom": "Vanilla.js",
+                                "description": "template",
+                                "id":"vide lower"
+                            }
+
+                        ]
+                        }
+                    ]},
+                    {
+                    "langage-cat-nom": "CSS",
+                    "id":"vide bold",
+                    "framework": [{
+                           "framework-nom": "Framework",
+                           "id":"vide bold",
+                           "framework-lib": [{
+                            
+                                "framework-lib-nom": "Bootstrap",
+                                "description": "template",
+                                "id":"vide lower"
+                            },
+                            {
+                                "framework-lib-nom": "Foundation",
+                                "description": "template",
+                                "id":"vide lower"
+                            },
+                            {
+                                "framework-lib-nom": "Less",
+                                "description": "template",
+                                "id":"vide lower"
+                            },
+                            {
+                                "framework-lib-nom": "Sass",
+                                "description": "template",
+                                "id":"vide lower"
+                            }
+                           ]
+                        }
+                    ]
+                    },{
+                    "langage-cat-nom": "HTML",
+                    "id":"vide bold",
+                    "framework": [{
+                        "framework-nom": "Framework",
+                        "id":"vide bold",
+                        "framework-lib": [{
+
+                                "framework-lib-nom": "Bootstrap",
+                                "description": "template",
+                                "id":"vide lower"
+                            },
+                            {
+                                "framework-lib-nom": "Foundation",
+                                "description": "template",
+                                "id":"vide lower"
+                            }
+                        ]
+                    }]
+                    },{
+                    "langage-cat-nom": "JAVA",
+                    "id":"vide bold",
+                    "framework-lib": [{
+                        "framework-lib-nom": "GWT",
+                        "description": "template",
+                        "id":"vide lower"
+                    },{
+                        "framework-lib-nom": "JSF",
+                        "description": "template",
+                        "id":"vide lower"
+                    },{
+                        "framework-lib-nom": "Java FX",
+                        "description": "template",
+                        "id":"vide lower"
+                    },{
+                        "framework-lib-nom": "Vaadin",
+                        "description": "template",
+                        "id":"vide lower"
+                    }]
+                    },{
+                    "langage-cat-nom": "C#",
+                    "id":"vide bold",
+                    "framework-lib": [{
+                        "framework-lib-nom": "Blazor",
+                        "description": "template",
+                        "id":"vide lower"
+                    }]
+                    },{
+                        "framework-lib-nom": "Elm",
+                        "description": "template",
+                        "id":"vide lower"
+                    }
+                ]
+                },{
+                    "app-nom": "Design",
+                    "id":"plein lower",
+                    "langage-cat": [{
+                        "langage-cat-nom": "UX/UI designer",
+                        "id":"vide bold",
+                        "framework": [{
+                            "framework-nom": "Wireframes",
+                            "id":"vide bold",
+                            "framework-lib": [{
+                                "framework-lib-nom": "Figma",
+                                "description": "template",
+                                "id":"vide lower"
+                            },{
+                                "framework-lib-nom": "Adobe XD",
+                                "description": "template",
+                                "id":"vide lower"
+                            },{
+                                "framework-lib-nom": "Balsamiq",
+                                "description": "template",
+                                "id":"vide lower"
+                            },{
+                                "framework-lib-nom": "Sketch",
+                                "description": "template",
+                                "id":"vide lower"
+                            },{
+                                "framework-lib-nom": "InVision",
+                                "description": "template",
+                                "id":"vide lower"
+                            }]
+                        }]
+                    }]
+                }
+            ]
+        },
+        {
+            "secteur-nom": "DEV BACK END",
+            "id":"plein bold",
+            "app": [{
+                "app-nom": "Server Web",
+                "id":"plein lower",
+                "framework-lib": [{
+                    "framework-lib-nom": "Nginx",
+                    "description": "template",
+                    "id":"vide lower"
+                },{
+                    "framework-lib-nom": "Apache",
+                    "description": "template",
+                    "id":"vide lower"
+                },{
+                    "framework-lib-nom": "Caddy",
+                    "description": "template",
+                    "id":"vide lower"
+                }]
+            },{
+                "app-nom": "Server d'application linux",
+                "id":"plein lower",
+                "langage-cat": [{
+                    "langage-cat-nom": "Java",
+                    "id":"vide bold",
+                    "framework-lib": [{
+                        "framework-lib-nom": "Websphere",
+                        "description": "template",
+                        "id":"vide lower"
+                    },{
+                        "framework-lib-nom": "Weblogic",
+                        "description": "template",
+                        "id":"vide lower"
+                    },{
+                        "framework-lib-nom": "Wildfly",
+                        "description": "template",
+                        "id":"vide lower"
+                    },{
+                        "framework-lib-nom": "WildflyTomcat/Apache",
+                        "description": "template",
+                        "id":"vide lower"
+                    },{
+                        "framework-lib-nom": "Glassfish",
+                        "description": "template",
+                        "id":"vide lower"
+                    }]
+                },{
+                    "langage-cat-nom": "PHP",
+                    "id":"vide bold",
+                    "framework-lib": [{
+                        "framework-lib-nom": "XAMPP",
+                        "description": "template",
+                        "id":"vide lower"
+                    },{
+                        "framework-lib-nom": "WAMP Server",
+                        "description": "template",
+                        "id":"vide lower"
+                    },{
+                        "framework-lib-nom": "LAMP Stack",
+                        "description": "template",
+                        "id":"vide lower"
+                    },{
+                        "framework-lib-nom": "LiteSpeed",
+                        "description": "template",
+                        "id":"vide lower"
+                    }]
+                }]
+            },{
+                "app-nom": "API/Webservice",
+                "id":"plein lower",
+                "framework-lib": [{
+                        "framework-lib-nom": "Rest",
+                        "description": "template",
+                        "id":"vide lower"
+                },{
+                        "framework-lib-nom": "WS SOAP",
+                        "description": "template",
+                        "id":"vide lower"
+                },{
+                        "framework-lib-nom": "GraphQL",
+                        "description": "template",
+                        "id":"vide lower"
+                },{
+                        "framework-lib-nom": "RPC",
+                        "description": "template",
+                        "id":"vide lower"
+                }]
+            },{
+                "app-nom": "Dev",
+                "id": "plein lower",
+                "langage-grp": [{
+                    "langage-grp-nom": "Langages de prog",
+                    "id":"vide bold",
+                    "langage-cat":[{
+                        "langage-cat-nom": "Rust",
+                        "id": "vide bold",
+                        "framework-lib": [{
+                            "framework-lib-nom": "Axum",
+                            "description": "template",
+                            "id":"vide lower"
+                        },{
+                            "framework-lib-nom": "ActixWeb",
+                            "description": "template",
+                            "id":"vide lower"
+                        },{
+                            "framework-lib-nom": "Rocket",
+                            "description": "template",
+                            "id":"vide lower"
+                        }]
+                    },{
+                        "langage-cat-nom": "Python",
+                        "id":"vide bold",
+                        "framework": [{
+                            "framework-nom": "Framework",
+                            "id": "vide bold",
+                            "framework-lib": [{
+                                "framework-lib-nom": "Django",
+                                "description":"template",
+                                "id":"vide lower"
+                            },{
+                                "framework-lib-nom": "Flask",
+                                "description":"template",
+                                "id":"vide lower"
+                            },{
+                                "framework-lib-nom": "Fast API",
+                                "description":"template",
+                                "id":"vide lower"
+                            },{
+                                "framework-lib-nom": "Tornado",
+                                "description":"template",
+                                "id":"vide lower"
+                            },{
+                                "framework-lib-nom": "CherryPy",
+                                "description":"template",
+                                "id":"vide lower"
+                            }]
+                        }]
+                    },{
+                        "langage-cat-nom": "C++",
+                        "id": "vide bold",
+                        "framework-lib": [{
+                            "framework-lib-nom": "Qt",
+                            "description": "template",
+                            "id":"vide lower"
+                        },{
+                            "framework-lib-nom": "wxWidgets",
+                            "description": "template",
+                            "id":"vide lower"
+                        },{
+                            "framework-lib-nom": "ImGUI",
+                            "description": "template",
+                            "id":"vide lower"
+                        }]
+                    },{
+                        "langage-cat-nom": "Kotlin",
+                        "id":"vide bold",
+                        "framework-lib": [{
+                            "framework-lib-nom": "Ktor",
+                            "description": "template",
+                            "id":"vide lower"
+                        },{
+                            "framework-lib-nom": "Micronaut",
+                            "description": "template",
+                            "id":"vide lower"
+                        },{
+                            "framework-lib-nom": "Quarkus",
+                            "description": "template",
+                            "id":"vide lower"
+                        },{
+                            "framework-lib-nom": "Spring Framework",
+                            "description": "template",
+                            "id":"vide lower"
+                        }]
+                    },{
+                        "langage-cat-nom": "PHP",
+                        "id":"vide bold",
+                        "framework": [{
+                            "framework-nom": "Framework",
+                            "id":"vide bold",
+                            "framework-lib": [{
+                                "framework-lib-nom": "Symfony",
+                                "description": "template",
+                                "id":"vide lower"
+                            },{
+                                "framework-lib-nom": "Laravel",
+                                "description": "template",
+                                "id":"vide lower"
+                            },{
+                                "framework-lib-nom": "Codelgniter",
+                                "description": "template",
+                                "id":"vide lower"
+                            },{
+                                "framework-lib-nom": "Laminas",
+                                "description": "template",
+                                "id":"vide lower"
+                            },{
+                                "framework-lib-nom": "CakePHP",
+                                "description": "template",
+                                "id":"vide lower"
+                            },{
+                                "framework-lib-nom": "Yii",
+                                "description": "template",
+                                "id":"vide lower"
+                            }]
+                        },{
+                            "framework-nom": "CMS",
+                            "id": "vide bold",
+                            "framework-nom-sub" : [{
+                                "framework-nom-sub-nom": "CMS e-commerce",
+                                "id":"vide bold",
+                                "framework-lib": [{
+                                    "framework-lib-nom": "Shopify",
+                                    "id":"vide lower",
+                                    "description": "template"
+                                },{
+                                    "framework-lib-nom": "Magenta",
+                                    "id":"vide lower",
+                                    "description": "template"
+                                },{
+                                    "framework-lib-nom": "Prestashop",
+                                    "id":"vide lower",
+                                    "description": "template"
+                                }]
+                            },{
+                                "framework-lib-name": "Wordpress",
+                                "id": "vide lower",
+                                "description": "template"
+                            },{
+                                "framework-lib-name": "Drupal",
+                                "id":"vide lower",
+                                "description": "template"
+                            }]
+                        }]
+                    },{
+                        "langage-cat-nom": "Langages résilients",
+                        "id":"vide bold",
+                        "framework-lib": [{
+                            "framework-lib-name": "Cobol",
+                            "id": "vide lower",
+                            "description": "template"
+                        },{
+                            "framework-lib-name": "RPG (AS400 Iseries)",
+                            "id": "vide lower",
+                            "description": "template"
+                        }]
+                    },{
+                        "langage-cat-nom": "Ruby",
+                        "id":"vide bold",
+                        "framework": [{
+                            "framework-nom": "Framework",
+                            "id":"vide bold",
+                            "framework-lib": [{
+                                "framework-lib-nom": "Rails",
+                                "description":"template",
+                                "id":"vide lower"
+                            },{
+                                "framework-lib-nom": "Sinitra",
+                                "description":"template",
+                                "id":"vide lower"
+                            },{
+                                "framework-lib-nom": "Ramaze",
+                                "description":"template",
+                                "id":"vide lower"
+                            },{
+                                "framework-lib-nom": "Hanami",
+                                "description":"template",
+                                "id":"vide lower"
+                            },{
+                                "framework-lib-nom": "Roda",
+                                "description":"template",
+                                "id":"vide lower"
+                            },{
+                                "framework-lib-nom": "Padrino",
+                                "description":"template",
+                                "id":"vide lower"
+                            }]
+                        }]
+                    },{
+                        "langage-cat-nom": "Java",
+                        "id":"plein bold",
+                        "framework": [{
+                            "framework-nom": "Framework",
+                            "id": "vide bold",
+                            "framework-nom-sub": [{
+                                "framework-nom-sub-nom": "Spring",
+                                "id":"vide bold",
+                                "framework-lib": [{
+                                    "framework-lib-nom": "Spring Boot",
+                                    "id":"vide lower",
+                                    "description":"template"
+                                },{
+                                    "framework-lib-nom": "Spring MVC",
+                                    "id":"vide lower",
+                                    "description":"template"
+                                },{
+                                    "framework-lib-nom": "Spring Security",
+                                    "id":"vide lower",
+                                    "description":"template"
+                                },{
+                                    "framework-lib-nom": "Spring Data",
+                                    "id":"vide lower",
+                                    "description":"template"
+                                },{
+                                    "framework-lib-nom": "Spring Cloud",
+                                    "id":"vide lower",
+                                    "description":"template"
+                                },{
+                                    "framework-lib-nom": "Spring Batch",
+                                    "id":"vide lower",
+                                    "description":"template"
+                                },{
+                                    "framework-lib-nom": "Spring Session",
+                                    "id":"vide lower",
+                                    "description":"template"
+                                }]
+                            },{
+                                "framework-lib-name": "Jakarta",
+                                "id":"vide lower",
+                                "description": "template"
+                            },{
+                                "framework-lib-name": "Quarkus",
+                                "id":"vide lower",
+                                "description": "template"
+                            },{
+                                "framework-lib-name": "Micronaut",
+                                "id":"vide lower",
+                                "description": "template"
+                            },{
+                                "framework-lib-name": "Apache Struts",
+                                "id":"vide lower",
+                                "description": "template"
+                            },{
+                                "framework-lib-name": "Play Framework",
+                                "id":"vide lower",
+                                "description": "template"
+                            },{
+                                "framework-lib-name": "JSF",
+                                "id":"vide lower",
+                                "description": "template"
+                            },{
+                                "framework-lib-name": "Java FX",
+                                "id":"vide lower",
+                                "description": "template"
+                            }]
+                        }]
+                    },{
+                        "langage-cat-nom": "Golan",
+                        "id": "vide bold",
+                        "framework-lib": [{
+                            "framework-lib-nom": "Gin",
+                            "description":"template",
+                            "id":"vide lower"
+                        },{
+                            "framework-lib-nom": "Echo",
+                            "description":"template",
+                            "id":"vide lower"
+                        },{
+                            "framework-lib-nom": "Beego",
+                            "description":"template",
+                            "id":"vide lower"
+                        },{
+                            "framework-lib-nom": "Fiber",
+                            "description":"template",
+                            "id":"vide lower"
+                        },{
+                            "framework-lib-nom": "Buffalo",
+                            "description":"template",
+                            "id":"vide lower"
+                        }]
+                    },{
+                        "langage-cat-nom": "Node JS",
+                        "id": "vide bold",
+                        "framework": [{
+                            "framework-nom": "Framework",
+                            "id":"vide bold",
+                            "framework-lib": [{
+                                "framework-lib-name": "Sails JS",
+                                "id":"vide lower",
+                                "description":"template"
+                            },{
+                                "framework-lib-name": "ExpressJS",
+                                "id":"vide lower",
+                                "description":"template"
+                            },{
+                                "framework-lib-name": "NestJS",
+                                "id":"vide lower",
+                                "description":"template"
+                            },{
+                                "framework-lib-name": "KoaJS",
+                                "id":"vide lower",
+                                "description":"template"
+                            },{
+                                "framework-lib-name": "HapiJS",
+                                "id":"vide lower",
+                                "description":"template"
+                            },{
+                                "framework-lib-name": "LoopbackJS",
+                                "id":"vide lower",
+                                "description":"template"
+                            },{
+                                "framework-lib-name": "MeteorJS",
+                                "id":"vide lower",
+                                "description":"template"
+                            },{
+                                "framework-lib-name": "FastifyJS",
+                                "id":"vide lower",
+                                "description":"template"
+                            }]
+                        }]
+                    },{
+                        "langage-cat-nom": "C#",
+                        "id":"vide bold",
+                        "framework": [{
+                            "framework-name": ".net",
+                            "id":"vide bold",
+                            "framework-lib": [{
+                                "framework-lib-name": ".NET (.NET core)",
+                                "id":"vide lower",
+                                "description": "template"
+                            },{
+                                "framework-lib-name": "WPF",
+                                "id":"vide lower",
+                                "description": "template"
+                            },{
+                                "framework-lib-name": "ASP.net",
+                                "id":"vide lower",
+                                "description": "template"
+                            },{
+                                "framework-lib-name": "Blazor",
+                                "id":"vide lower",
+                                "description": "template"
+                            },{
+                                "framework-lib-name": "Entity Framework Core",
+                                "id":"vide lower",
+                                "description": "template"
+                            },{
+                                "framework-lib-name": ".NET MAUI",
+                                "id":"vide lower",
+                                "description": "template"
+                            },{
+                                "framework-lib-name": "Drapper",
+                                "id":"vide lower",
+                                "description": "template"
+                            }]
+                        }]
+                    },{
+                        "langage-cat-nom": "Scale",
+                        "id":"vide bold",
+                        "framework": [{
+                            "framework-nom": "Framework",
+                            "id":"vide bold",
+                            "framework-lib" [{
+                                "framework-lib-nom": "Akka",
+                                "id":"vide lower",
+                                "description":"template"
+                            },{
+                                "framework-lib-nom": "Play",
+                                "id":"vide lower",
+                                "description":"template"
+                            },{
+                                "framework-lib-nom": "Apache Spark",
+                                "id":"vide lower",
+                                "description":"template"
+                            },{
+                                "framework-lib-nom": "http4s",
+                                "id":"vide lower",
+                                "description":"template"
+                            },{
+                                "framework-lib-nom": "ZIO",
+                                "id":"vide lower",
+                                "description":"template"
+                            },{
+                                "framework-lib-nom": "Cats Effect",
+                                "id":"vide lower",
+                                "description":"template"
+                            },{
+                                "framework-lib-nom": "Finch",
+                                "id":"vide lower",
+                                "description":"template"
+                            }]
+                        }]
+                    },{
+                        "langage-cat-nom": "API/Webservice",
+                        "id":"vide bold",
+                    }]
+                }]
+
+            }]
+        }
+    ]
 }
