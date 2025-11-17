@@ -691,6 +691,890 @@
                     }]
                 }]
             }]
+        },{
+            "name": "Bonnes pratiques de dev",
+            "id":"plein bold",
+            "sub": [{
+                "name":"DDD",
+                "id":"vide lower",
+                "description": "template"
+            },{
+                "name":"SOLID",
+                "id":"vide lower",
+                "description": "template"
+            },{
+                "name":"Software Craftmanship",
+                "id":"vide lower",
+                "description": "template"
+            }]
+        },{
+            "name": "Bases de données",
+            "id":"plein bold",
+            "sub":[{
+                "name": "Orienté objet",
+                "id": "plein lower",
+                "sub": [{
+                    "name": "Versant Objet Database",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "GemStone/S",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "ObjectStore",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "ObjectDB",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "Db4o",
+                    "id":"vide lower",
+                    "description":"template"
+                }]
+            },{
+                "name":"No SQL*",
+                "id":"plein lower",
+                "sub" [{
+                    "name": "Documentaire",
+                    "id":"vide bold",
+                    "sub": [{
+                        "name":"CouchDB",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name":"Cloudant",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name":"Mango DB",
+                        "id":"vide lower",
+                        "description":"template"
+                    }]
+                },{
+                    "name": "Graphe",
+                    "id":"vide bold",
+                    "sub": [{
+                        "name":"Neo4J",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name":"Dex",
+                        "id":"vide lower",
+                        "description":"template"
+                    }]
+                },{
+                    "name": "Colonne",
+                    "id":"vide bold",
+                    "sub": [{
+                        "name":"Cassandra",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name":"Hbase",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name":"BigTable",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name":"Amazon DynamoDB",
+                        "id":"vide lower",
+                        "description":"template"
+                    }]
+                },{
+                    "name": "Documentaire",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "Hadoop",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name":"Key/Value",
+                    "id":"vide bold",
+                    "sub":[{
+                        "name":"MemCached",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name":"Redis",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name":"Coherence",
+                        "id":"vide lower",
+                        "description":"template"
+                    }]
+                }]
+            },{
+                "name":"Langage",
+                "id":"plein lower",
+                "sub":[{
+                        "name":"Transact SQL (MS SQLserver/Azure)",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name":"PL-SQL (Oracle)",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name":"Langage SQL",
+                        "id":"vide lower",
+                        "description":"template"
+                    }]
+            },{
+                "name":"SGBRD (BDD / Relationnel)",
+                "id":"plein lower",
+                "sub": [{
+                    "name": "PostfreSQL",
+                    "id":"vide bold",
+                    "sub": [{
+                        "name": "PostGIS",
+                        "id":"vide lower",
+                        "description":"template"
+                    }]
+                },{
+                    "name": "My SQL",
+                    "id":"vide bold",
+                    "sub": [{
+                        "name": "Maria DB : version open source",
+                        "id":"vide lower",
+                        "description":"template"
+                    }]
+                },{
+                    "name": "SQLite",
+                    "id":"vide bold",
+                    "description":"template"
+                },{
+                    "name": "DB2",
+                    "id":"vide bold",
+                    "description":"template"
+                },{
+                    "name": "Oracle",
+                    "id":"vide bold",
+                    "sub": [{
+                        "name": "Langage particulier PL SQL: rattaché à Oracle",
+                        "id":"vide lower",
+                        "description":"template"
+                    }]
+                },{
+                    "name": "Progress",
+                    "id":"vide bold",
+                    "sub": [{
+                        "name": "Langage de programmation: profress 4G",
+                        "id":"vide lower",
+                        "description":"template"
+                    }]
+                },{
+                    "name": "Firebird",
+                    "id":"vide bold",
+                    "description":"template"
+                },{
+                    "name": "Azure database (cloud)",
+                    "id":"vide bold",
+                    "description":"template"
+                },{
+                    "name": "SQL serveur (Microsoft)",
+                    "id":"vide bold",
+                    "sub": [{
+                        "name": "Acess",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name":"Excel",
+                        "id":"vide lower",
+                        "description":"template"
+                    }]
+                }]
+            },{
+                "name":"Outils",
+                "id":"plein lower",
+                "sub":[{
+                    "name":"PHPmyadmin",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name":"DataGrip (JetBrains)",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name":"DBeaver",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name":"DB Visualizer",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name":"Microsoft SQL Server Management Studio",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name":"Azure Data Studio",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name":"MySQL Workbench",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name":"pgAdmin (pour PostgreSQL)",
+                    "id":"vide lower",
+                    "description":"template"
+                }]
+            }]
+        },{
+            "name":"DEVOPS",
+            "id": "plein bold",
+            "sub": [{
+                "name": "IaC",
+                "id":"vide bold",
+                "sub":[{
+                    "name": "Terraform",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "Ansible",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "Puppet",
+                    "id":"vide lower",
+                    "description":"template"
+                },]
+            },{
+                "name": "Sécurité",
+                "id":"vide bold",
+                "sub":[{
+                    "name": "SonarQube",
+                    "id":"vide lower",
+                    "description":"template"
+                }]
+            },{
+                "name": "CI/CD",
+                "id":"vide bold",
+                "sub":[{
+                    "name": "Jenkins",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "GitLab CI/CD",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "GitHub Actions",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "Circle CI",
+                    "id":"vide lower",
+                    "description":"template"
+                }]
+            },{
+                "name": "Monitoring",
+                "id":"vide bold",
+                "sub":[{
+                    "name": "Prometheus",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "Grafana",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "Datadog",
+                    "id":"vide lower",
+                    "description":"template"
+                }]
+            },{
+                "name": "Outil",
+                "id":"vide bold",
+                "sub":[{
+                    "name": "Git",
+                    "id":"vide lower",
+                    "sub": [{
+                        "name": "GitLab",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name": "GitHub",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Bitbucket",
+                        "id":"vide lower",
+                        "description":"template"
+                    }]
+                }]
+            },{
+                "name": "Orchestration et conteneurisation",
+                "id":"vide bold",
+                "sub":[{
+                    "name": "Docker",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "Kubernetes",
+                    "id":"vide lower",
+                    "description":"template"
+                }]
+            }]
+        },{
+            "name":"Temps réel embarqué",
+            "id":"plein bold",
+            "sub":[{
+                "name": "Software: embarqué",
+                "id":"plein lower",
+                "sub": [{
+                    "name": "Langage",
+                    "id":"vide bold",
+                    "sub":[{
+                        "name": "C",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "C++",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Rust",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "JAVA",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "ADA (Domaine aéro)",
+                        "id": "vide lower",
+                        "description":"template"
+                    }]
+                },{
+                    "name": "Outils",
+                    "id":"plein lower",
+                    "sub":[{
+                        "name": "Autres outils",
+                        "id":"vide bold",
+                        "sub":[{
+                            "name": "Jtag",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "Wireshark (analyse réseau)",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "Valgrind",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "Make/Cmake",
+                            "id":"vide lower",
+                            "description":"template"
+                        }]
+                    },{
+                        "name": "Compilateur/deboggueur",
+                        "id":"vide bold",
+                        "sub":[{
+                            "name": "GCC",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "Clang/LLVM",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "GDB (debug)",
+                            "id":"vide lower",
+                            "description":"template"
+                        }]
+                    },{
+                        "name": "IDE",
+                        "id":"vide bold",
+                        "sub":[{
+                            "name": "Keil",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "IAR Embedded",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "MPLAB",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "Eclipse",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "VS code",
+                            "id":"vide lower",
+                            "description":"template"
+                        }]
+                    }]
+                },{
+                    "name": "Protocoles/bus",
+                    "id":"vide bold",
+                    "sub":[{
+                            "name": "Liaisons séries : RS232, RS485",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "Wifi",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "Bluetooth",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "BLE",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "ZIGBEE",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "GSM (4G, 5G...)",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "MQTT(IoT)",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "CAN (automobile)",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "I2C",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "Modbus",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "Ethernet",
+                            "id":"vide lower",
+                            "description":"template"
+                    }]
+                },{
+                    "name": "OS & plate-formes",
+                    "id": "vide bold",
+                    "sub":[{
+                        "name": "Plateforme dev Linux embarqué",
+                        "id":"vide bold",
+                        "sub": [{
+                            "name": "Yocto",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "Buildroot",
+                            "id":"vide lower",
+                            "description":"template"
+                        }]
+                    },{
+                        "name": "RTLinux",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name": "FreeRTOS",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name": "μC/Os-II",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Vxworks",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Xenomai",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Ecos",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Osek (automibile)",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name": "QNX",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Zephyr RTOS (IoT)",
+                        "id":"vide lower",
+                        "description":"template"
+                    }]
+                }]
+            },{
+                "name": "Hardware : électronique",
+                "id":"plein lower",
+                "sub": [{
+                    "name": "Outils",
+                    "id": "vide bold",
+                    "sub": [{
+                        "name": "LTSpice",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Pspice",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Kicad",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Eagle",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Orcad",
+                        "id": "vide lower",
+                        "description":"template"
+                    }]
+                },{
+                    "name": "Conception hardware",
+                    "id":"vide bold",
+                    "sub":[{
+                        "name": "Électronique analogique",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Électronique radio fréquences",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Électronique numérique",
+                        "id":"vide bold",
+                        "sub": [{
+                            "name": "Composant programmable -FPGA ou CPLD",
+                            "id":"vide bold",
+                            "sub" [{
+                                "name": "Langage VHDL",
+                                "id":"vide lower",
+                                "description":"template"
+                            },{
+                                "name": "Langage Verilog",
+                                "id":"vide lower",
+                                "description":"template"
+                            }]
+                        }]
+                    },{
+                        "name": "Électronique de puissance",
+                        "id":"vide lower",
+                        "description":"template"
+                    }]
+                }]
+            }]
+        }, {
+            "name": "Dev mobile",
+            "id":"plein bold",
+            "sub": [{
+                "name": "Android",
+                "id":"plein lower",
+                "sub": [{
+                    "name": "C++",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "Java",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "Kotlin",
+                    "id":"vide lower",
+                    "description":"template"
+                }]
+            },{
+                "name": "iOS",
+                "id":"plein lower",
+                "sub": [{
+                    "name": "Swift",
+                    "id":"vide bold",
+                    "sub": [{
+                        "name": "SwiftUI",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Ulkit",
+                        "id":"vide lower",
+                        "description":"template"
+                    }]
+                },{
+                    "name": "Objective-c",
+                    "id":"vide lower",
+                    "description":"template"
+                }]
+            },{
+                "name": "Hybride",
+                "id":"plein lower",
+                "sub": [{
+                    "name": "Framework 7",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name": "Kotlin Multiplatform",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name": "Cordova",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name": "Ionic",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name": "Flutter",
+                    "id": "vide lower",
+                    "description":"template"
+                }]
+            },{
+                "name": "Javascript",
+                "id":"plein lower",
+                "sub": [{
+                    "name": "Appcelerator Titanium",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name": "Reactscript",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name": "ReactNative",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name": "Nativescript",
+                    "id": "vide lower",
+                    "description":"template"
+                }]
+            }]
+        },{
+            "name": "Système et réseaux",
+            "id":"plein bold",
+            "sub":[{
+                "name": "Virtualisation",
+                "id":"plein lower",
+                "sub":[{
+                    "name": "Nutanix",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "Citrix",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "Oracle VMVirtualBox",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "VMware Workstation Pro",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "Microsoft HyperV",
+                    "id":"vide lower",
+                    "description":"template"
+                }]
+            },{
+                "name": "Plateforme",
+                "id":"plein lower",
+                "sub":[{
+                    "name": "Unix",
+                    "id":"vide bold",
+                    "sub": [{
+                        "name":"HP UNIX",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name":"SCO unix",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name":"AIX",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name":"Solaris",
+                        "id":"vide lower",
+                        "description":"template"
+                    }]
+                },{
+                    "name": "Linux",
+                    "id":"vide bold",
+                    "sub": [{
+                        "name": "Distribution",
+                        "id":"vide bold",
+                        "sub":[{
+                            "name": "Fedora",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "Arch Linux",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "Linux Mint",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "Redhat",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "Debian",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "Ubuntu",
+                            "id":"vide lower",
+                            "description":"template"
+                        }]
+                    }]
+                },{
+                    "name": "Windows",
+                    "id":"vide bold",
+                    "sub": [{
+                        "name": "Outils collaboratif",
+                        "id":"vide bold",
+                        "sub": [{
+                            "name": "Confluence",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "Slack",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "Talkspirit",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "HLC Note",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "Microsoft 365",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "Exchange",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "Google Workplace",
+                            "id":"vide lower",
+                            "description":"template"
+                        }]
+                    },{
+                        "name":"Poste de travail",
+                        "id":"vide bold",
+                        "sub":[{
+                            "name": "Windows 11",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "MECM",
+                            "id":"vide lower",
+                            "description":"template"
+                        }]
+                    },{
+                        "name":"Serveur",
+                        "id":"vide bold",
+                        "sub": [{
+                            "name": "Version",
+                            "id":"vide bold",
+                            "sub": [{
+                                "name": "Windows server 2025",
+                                "id":"vide lower",
+                                "description":"template"
+                            },{
+                                "name": "Windows server 2022",
+                                "id":"vide lower",
+                                "description":"template"
+                            },{
+                                "name": "Windows server 2019",
+                                "id":"vide lower",
+                                "description":"template"
+                            }]
+                        },{
+                            "name":"Active directory",
+                            "id":"vide lower",
+                            "description":"template"
+                        }]
+                    }]
+                },{
+                    "name": "Cloud",
+                    "id":"vide bold",
+                    "sub":[{
+                        "name": "Cloud public",
+                        "id":"vide bold",
+                        "sub": [{
+                            "name": "IBM cloud",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "AWS",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "Google Cloud Plateform",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "Microsoft Azure",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "OVH Cloud",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "Scaleway",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "Ionos",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "Oracle Cloud Infrastructure (OIC)",
+                            "id":"vide lower",
+                            "description":"template"
+                        }]
+                    }]
+                }]
+            },{
+                "name": "Grands et moyens",
+                "id":"plein lower",
+                "sub":[{
+                    "name": "Système et réseaux",
+                    "id":"plein lower",
+                    "sub":[{
+                        "name": "AS400/Iseries",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name":"MVS/OS390",
+                        "id":"vide lower",
+                        "description":"template"
+                    }]
+                }]
+            }]
         }
     ]
 }
