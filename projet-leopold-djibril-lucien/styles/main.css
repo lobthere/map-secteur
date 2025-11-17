@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(181, 130, 130);
+}
+h1 {
+    color: #FFFFFF;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    color: rgb(179, 0, 255);
+    text-align: center;
+}
+#searchbar{
+    text align :justify;
+    justify-items :content;
+}
