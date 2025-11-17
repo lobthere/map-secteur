@@ -654,9 +654,42 @@
                     },{
                         "name": "API/Webservice",
                         "id":"vide bold",
+                        "sub": [{
+                            "name": ".net",
+                            "description":"template",
+                            "id":"vide lower"
+                        }]
+                    },{
+                        "name":"VB.NET",
+                        "id":"vide bold",
+                        "sub": [{
+                            "name": ".net",
+                            "description":"template",
+                            "id":"vide lower"
+                        }]
                     }]
                 }]
 
+            },{
+                "name":"ORM",
+                "id":"plein lower",
+                "sub":[{
+                    "name": "Microsoft.net",
+                    "id":"vide bold",
+                    "sub": [{
+                        "name": "Nhibernate",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Dapper",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Entity framework",
+                        "id":"vide lower",
+                        "description":"template"
+                    }]
+                }]
             }]
         }
     ]
