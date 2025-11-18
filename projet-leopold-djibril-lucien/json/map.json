@@ -621,7 +621,7 @@
                         "sub": [{
                             "name": "Framework",
                             "id":"vide bold",
-                            "sub" [{
+                            "sub": [{
                                 "name": "Akka",
                                 "id":"vide lower",
                                 "description":"template"
@@ -737,7 +737,7 @@
             },{
                 "name":"No SQL*",
                 "id":"plein lower",
-                "sub" [{
+                "sub": [{
                     "name": "Documentaire",
                     "id":"vide bold",
                     "sub": [{
@@ -945,7 +945,7 @@
                     "name": "Puppet",
                     "id":"vide lower",
                     "description":"template"
-                },]
+                }]
             },{
                 "name": "Sécurité",
                 "id":"vide bold",
@@ -1262,7 +1262,7 @@
                         "sub": [{
                             "name": "Composant programmable -FPGA ou CPLD",
                             "id":"vide bold",
-                            "sub" [{
+                            "sub": [{
                                 "name": "Langage VHDL",
                                 "id":"vide lower",
                                 "description":"template"
@@ -1655,13 +1655,769 @@
                     },{
                         "name": "VPN",
                         "id":"vide bold",
-                        "sub"{
+                        "sub":{
                             "name": "Open VPN",
                             "id": "vide lower",
                             "description": "template"
                         }
                     }]
                 }]
+            }]
+        },{
+            "name": "Gestion de projet",
+            "id":"plein bold",
+            "sub": [{
+                "name": "Outils",
+                "id":"plein lower",
+                "sub": [{
+                    "name": "Monday",
+                    "id":"vide lower",
+                    "description": "template"
+                },{
+                    "name": "Asana",
+                    "id":"vide lower",
+                    "description": "template"
+                },{
+                    "name": "Trello",
+                    "id":"vide lower",
+                    "description": "template"
+                },{
+                    "name": "Redmine",
+                    "id":"vide lower",
+                    "description": "template"
+                },{
+                    "name": "Gantt",
+                    "id":"vide lower",
+                    "description": "template"
+                },{
+                    "name": "PickUp",
+                    "id":"vide lower",
+                    "description": "template"
+                },{
+                    "name": "MS Projet",
+                    "id":"vide lower",
+                    "description": "template"
+                },{
+                    "name": "Jira",
+                    "id":"vide lower",
+                    "description": "template"
+                },{
+                    "name": "Zoho Projects",
+                    "id":"vide lower",
+                    "description": "template"
+                },{
+                    "name": "Basecamp",
+                    "id":"vide lower",
+                    "description": "template"
+                },{
+                    "name": "Notion",
+                    "id":"vide lower",
+                    "description": "template"
+                },{
+                    "name": "Airtable",
+                    "id":"vide lower",
+                    "description": "template"
+                }]
+            },{
+                "name": "Méthode",
+                "id": "plein lower",
+                "sub": [{
+                    "name": "Agile",
+                    "id": "vide bold",
+                    "sub": [{
+                        "name": "Kanban",
+                        "id": "vide bold",
+                        "sub": {
+                            "name": "Scrumban",
+                            "id": "vide lower",
+                            "description":"template"
+                        }
+                    },{
+                        "name": "Scrum",
+                        "id":"vide bold",
+                        "sub":[{
+                            "name": "Scrumban",
+                            "id":"vide lower",
+                            "description":"template"
+                        },{
+                            "name": "LEAN",
+                            "id":"vide lower",
+                            "description":"template"
+                        }]
+                    },{
+                        "name": "XP",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "SAFe",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Crystal",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "FDD",
+                        "id": "vide lower",
+                        "description":"template"
+                    }]
+                },{
+                    "name": "Cycle en V",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name": "Cascade",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name": "Prince2",
+                    "id": "vide lower",
+                    "description":"template"
+                }]
+            }]
+        },{
+            "name": "Data / IA",
+            "id": "plein bold",
+            "sub": [{
+                "name": "Data engineering",
+                "id": "vide bold",
+                "sub": [{
+                    "name": "Spark",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name": "Kafka",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name": "Apache Flink",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name": "Airflow",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name": "Dask",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name": "Presto / Trino",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name": "Apache Pulsar",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name": "RabbitMQ",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name": "RedPanda",
+                    "id": "vide lower",
+                    "description":"template"
+                }]
+            },{
+                "name": "Analyse & visualisation",
+                "id":"vide bold",
+                "sub":[{
+                    "name": "Palantir",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name": "Cirro",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name": "MetaMarkets",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name": "Altair Panopticon",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name": "Datameer",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name": "Tibco (Spotfire)",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name": "Rapidminer",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name": "Zoho Analytics",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name": "Looker",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name": "Domo",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name": "Sisense",
+                    "id": "vide lower",
+                    "description":"template"
+                }]
+            },{
+                "name": "Progiciels d'informatiques",
+                "id": "plein lower",
+                "sub": {
+                    "name": "décisionnels",
+                    "id":"plein lower",
+                    "sub":{
+                        "name": "(datawarehouse) /",
+                        "id":"plein lower",
+                        "sub": {
+                            "name": "BI business Intelligence",
+                            "id": "plein lower",
+                            "sub": [{
+                                "name": "BDD",
+                                "id":"vide lower",
+                                "description":"template"
+                            },{
+                                "name": "Traitement de données / modélisation mathématique",
+                                "id": "vide bold",
+                                "sub": [{
+                                    "name": "Python (Numpy, Pandas, SciPy, Scikit-learn)",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                },{
+                                    "name": "Julius AI",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                },{
+                                    "name": "MathGPTPro",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                },{
+                                    "name": "Mathway / MathPapa",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                },{
+                                    "name": "Maple",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                },{
+                                    "name": "R",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                },{
+                                    "name": "Excel",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                },{
+                                    "name": "Alternyx",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                },{
+                                    "name": "Power Query",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                },{
+                                    "name": "SAS",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                },{
+                                    "name": "Sphinx",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                },{
+                                    "name": "Dataiku",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                }]
+                            },{
+                                "name": "Data Platform",
+                                "id": "vide bold",
+                                "sub": [{
+                                    "name": "Snowflake",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                },{
+                                    "name": "Databricks",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                },{
+                                    "name": "Azure Fabric",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                },{
+                                    "name": "BigQuery",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                },{
+                                    "name": "Teradata",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                }]
+                            },{
+                                "name": "Alimentation / ETL",
+                                "id":"vide bold",
+                                "sub":[{
+                                    "name": "Talend/Talaxie",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                },{
+                                    "name": "Informatica",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                },{
+                                    "name": "DBT",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                },{
+                                    "name": "Airbyte",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                },{
+                                    "name": "IBM DataStage",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                },{
+                                    "name": "Pentaho Data Integration",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                },{
+                                    "name": "Fivetran",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                },{
+                                    "name": "Stitch",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                },{
+                                    "name": "Integrate.io",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                },{
+                                    "name": "Hevo Data",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                },{
+                                    "name": "Matilion",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                },{
+                                    "name": "AWS Glue",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                },{
+                                    "name": "Google Cloud Data Fusion",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                },{
+                                    "name": "Azure Data Factory",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                },{
+                                    "name": "Cloudera DataFlow",
+                                    "id": "vide lower",
+                                    "description":"template"
+                                }]
+                            }]
+                        }
+                    }
+                }
+            },{
+                "name": "BI",
+                "id":"plein lower",
+                "sub": [{
+                    "name":"SAP Business Objects (SAP BI)",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name":"Birst",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name":"Microsoft Power BI",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name":"Tableau",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name":"Qlik Sense",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name":"MyReport",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name":"Microstrategy",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name":"GoodData",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name":"Pentaho",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name":"SAS",
+                    "id": "vide lower",
+                    "description":"template"
+                },{
+                    "name":"Cognos",
+                    "id": "vide lower",
+                    "description":"template"
+                }]
+            }]
+        },{
+            "name": "Outils de dev",
+            "id":"plein bold",
+            "sub": [{
+                "name":"Maven ( automatisation de production pour JAVA",
+                "id": "vide lower",
+                "description":"template"
+            },{
+                "name":"Gradle (Android)",
+                "id": "vide lower",
+                "description":"template"
+            },{
+                "name": "Outils de Versionning",
+                "id": "plein lower",
+                "sub":[{
+                    "name": "Git",
+                    "id":"vide bold",
+                    "sub": [{
+                        "name": "GitHub",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Gitlab",
+                        "id":"vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Bitbucket",
+                        "id":"vide lower",
+                        "description":"template"
+                    }]
+                },{
+                    "name": "SVN",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "Mercurial",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "SpiraTest",
+                    "id":"vide lower",
+                    "description":"template"
+                }]
+            },{
+                "name": "IDE",
+                "id": "plein lower",
+                "sub": [{
+                    "name": "Visual Studio",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "Eclipse, NetBeans, intelliJ (Java)",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "PhpStorm (PHP)",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "WebStorm, BlueFish, NotePad++",
+                    "id":"vide lower",
+                    "description":"template"
+                }]
+            },{
+                "name": "Qualité de code",
+                "id":"plein lower",
+                "sub": [{
+                    "name": "Peer/Pair programming",
+                    "id":"vide bold",
+                    "sub": [{
+                        "name": "Travailler à deux sur le code",
+                        "id":"vide lower",
+                        "description":"template"
+                    }]
+                },{
+                    "name": "Revues de codes",
+                    "id":"vide bold",
+                    "sub":[{
+                        "name": "Relectur par un autre dev",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Linter",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "SonarQube",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Codebeat",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Visual Expert",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Rhodecode",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Review Board",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Crucible",
+                        "id": "vide lower",
+                        "description":"template"
+                    }]
+                }]
+            }]
+        },{
+            "name": "Cybersécurité",
+            "id":"plein bold",
+            "sub": [{
+                "name": "Sécurité Infra et réseaux",
+                "id": "plein lower",
+                "sub": [{
+                    "name": "Firewall",
+                    "id": "plein lower",
+                    "sub": [{
+                        "name": "Cisco",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Fortinet",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Stormshield",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Palo Alto",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Checkpoint",
+                        "id": "vide lower",
+                        "description":"template"
+                    }]
+                },{
+                    "name": "Réseaux",
+                    "id": "plein lower",
+                    "sub": [{
+                        "name": "Firewall",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Switch",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Routeurs",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "Cisco",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "VPN",
+                        "id": "vide bold",
+                        "sub": {
+                            "name": "Open VPN",
+                            "id": "vide lower",
+                            "description":"template"
+                        }
+                    }]
+                }]
+            },{
+                "name": "Outils d'entrainement /CTF",
+                "id": "plein lower",
+                "sub": [{
+                    "name": "Google CTF",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "Try Hack Me",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "Root Me",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "CTFtime",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "OverTheWire",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "PicoCTF",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "VulnHub",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "Hacker101",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "Google CTF",
+                    "id":"vide lower",
+                    "description":"template"
+                }]
+            },{
+                "name": "Buy Bounty",
+                "id": "plein lower",
+                "sub": [{
+                    "name": "Yeswehack",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "Cobalt",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "Intigriti",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "Synack",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "HackerOne",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "Bugcrowd",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "OpenBugBounty",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "Detectify Crowdsource",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "Zerocopter",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "SaheHats",
+                    "id":"vide lower",
+                    "description":"template"
+                }]
+            },{
+                "name": "Gouvernance",
+                "id": "plein lower",
+                "sub": [{
+                    "name": "PCA",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "PRA",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "PCI",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "PSSI",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "SMSI",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "EBIOS RM",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "MEHARI",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "Guide hygiène ANSSI",
+                    "id":"vide lower",
+                    "description":"template"
+                },{
+                    "name": "Normes",
+                    "id":"vide lower",
+                    "sub": [{
+                        "name": "ISO 27001",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "ISO 27002",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "ISO 27005",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "NIS2",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "NIST",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "COBIT",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "PCI DSS",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "SOC 2",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "HDS",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "ITIL",
+                        "id": "vide lower",
+                        "description":"template"
+                    },{
+                        "name": "RGPD",
+                        "id": "vide lower",
+                        "description":"template"
+                    }]
+                }]
+            },{
+                "name": "Outils sécurité",
+                "id": "plein lower",
+                "sub": [{}]
             }]
         }
     ]
