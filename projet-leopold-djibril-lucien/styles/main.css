@@ -1,21 +1,26 @@
 body{
-    background-color: rgb(181, 130, 130);
+    background-color: rgb(229, 229, 229);
 }
 h1 {
     font-size: 50px;
-    color: #FFFFFF;
-    text-shadow: #000000 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #ff50a7 0px 0px 20px, #e979b1 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
-    color: rgb(192, 97, 233);
+    color: #000000ee;
+    font-family: serif ;
+    text-shadow: #ffffff 0px 0px 5px, #000000 0px 0px 10px, #FFF 0px 0px 15px, #ff50a7 0px 0px 20px, #eaabca 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 label{
     font-size: 25px;}
 #searchbar{
+    padding: 20%;
     display : flex;
     justify-content: center;
 }
+#cherch{
+    padding:1%;
+}
 .search{
-    background-color: rgb(141, 3, 3);
+    background-color: #EA894B;
     color :white;
     padding: 5px 20px;
     border : none ; 
@@ -25,6 +30,57 @@ label{
     transition: background-color:0.3s ease;
 }
 .search:hover{
-    background-color: rgb(124, 12, 0);
+    background-color: #9c4d1c;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+artcart {
+    /* Centrer la carte sur la page (pour l'exemple) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Hauteur minimale de la vue */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Arrière-plan léger */
+}
+
+.cart {
+    /* Styles de la carte elle-même */
+    width: 300px; /* Largeur fixe de la carte */
+    padding: 20px;
+    background-color: #ffffff; /* Fond blanc de la carte */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 14px 18px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    border: 1px solid #ddd; /* Bordure légère */
+    text-align: left; /* Aligner le contenu à gauche */
+}
+
+.pretitre strong {
+    /* Style du titre secondaire/catégorie (frontend) */
+    display: block;
+    font-size: 0.8em;
+    color: #5c6770;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.container h2 {
+    /* Style du titre principal (definition rapide) */
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.definition {
+    /* Style du contenu/définition */
+    font-size: 1em;
+    color: #444;
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+/* Optionnel : cacher le picto inutile pour cet exemple */
+.picto {
+    display: ;
 }
