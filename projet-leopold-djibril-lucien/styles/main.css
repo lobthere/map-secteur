@@ -46,6 +46,7 @@ artcart {
 
 .cart {
     /* Styles de la carte elle-même */
+    display: flex;
     width: 300px; /* Largeur fixe de la carte */
     padding: 20px;
     background-color: #ffffff; /* Fond blanc de la carte */
@@ -53,6 +54,13 @@ artcart {
     box-shadow: 0 14px 18px rgba(0, 0, 0, 0.1); /* Ombre douce */
     border: 1px solid #ddd; /* Bordure légère */
     text-align: left; /* Aligner le contenu à gauche */
+    cursor : pointer ;
+    font-size: 20px;
+    transition: background-color:0.3s ease;
+}
+.cart:hover{
+    background-color: #EA894B;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .pretitre strong {
@@ -83,4 +91,7 @@ artcart {
 /* Optionnel : cacher le picto inutile pour cet exemple */
 .picto {
     display: ;
+}
+.plus{
+    width: 30px;
 }
