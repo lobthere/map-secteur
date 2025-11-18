@@ -3,59 +3,59 @@
     "annee": 2025,
     "secteur": [{
             "name": "DEV FRONT END",
-            "id": "plein bold",
+            "card-identity": "plein bold",
             "sub": [{
                 "name": "Dev",
-                "id": "plein lower",
+                "card-identity": "plein lower",
                 "sub": [{
                     "name": "Javascript",
-                    "id": "vide bold",
+                    "card-identity": "vide bold",
                     "sub": [{
                         "name": "Framework",
-                        "id":"vide bold",
+                        "card-identity":"vide bold",
                         "sub": [{
                                 "name": "Angular",
                                 "description": "template",
-                                "id": "vide lower"
+                                "card-identity": "vide lower"
                             },{
                                 "name": "Angular.js",
                                 "description": "template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             },
                             {
                                 "name": "Ember.js",
                                 "description": "template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             },
                             {
                                 "name": "React.js",
                                 "description": "template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             },
                             {
                                 "name": "JSF/Jakarta faces",
                                 "description": "template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             },
                             {
                                 "name": "Vue.js",
                                 "description": "template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             },
                             {
                                 "name": "Svelte",
                                 "description": "template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             },
                             {
                                 "name": "Backbone.js",
                                 "description": "template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             },
                             {
                                 "name": "Vanilla.js",
                                 "description": "template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             }
 
                         ]
@@ -63,107 +63,107 @@
                     ]},
                     {
                     "name": "CSS",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "sub": [{
                            "name": "Framework",
-                           "id":"vide bold",
+                           "card-identity":"vide bold",
                            "sub": [{
                                 "name": "Bootstrap",
                                 "description": "template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             },{
                                 "name": "Foundation",
                                 "description": "template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             },{
                                 "name": "Less",
                                 "description": "template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             },{
                                 "name": "Sass",
                                 "description": "template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             }]
                         }]
                     },{
                     "name": "HTML",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "sub": [{
                         "name": "Framework",
-                        "id":"vide bold",
+                        "card-identity":"vide bold",
                         "sub": [{
                                 "name": "Bootstrap",
                                 "description": "template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             },{
                                 "name": "Foundation",
                                 "description": "template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             }]
                     }]
                     },{
                     "name": "JAVA",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "sub": [{
                         "name": "GWT",
                         "description": "template",
-                        "id":"vide lower"
+                        "card-identity":"vide lower"
                     },{
                         "name": "JSF",
                         "description": "template",
-                        "id":"vide lower"
+                        "card-identity":"vide lower"
                     },{
                         "name": "Java FX",
                         "description": "template",
-                        "id":"vide lower"
+                        "card-identity":"vide lower"
                     },{
                         "name": "Vaadin",
                         "description": "template",
-                        "id":"vide lower"
+                        "card-identity":"vide lower"
                     }]
                     },{
                     "name": "C#",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "sub": [{
                         "name": "Blazor",
                         "description": "template",
-                        "id":"vide lower"
+                        "card-identity":"vide lower"
                     }]
                     },{
                         "name": "Elm",
                         "description": "template",
-                        "id":"vide lower"
+                        "card-identity":"vide lower"
                     }
                 ]
                 },{
                     "name": "Design",
-                    "id":"plein lower",
+                    "card-identity":"plein lower",
                     "sub": [{
                         "name": "UX/UI designer",
-                        "id":"vide bold",
+                        "card-identity":"vide bold",
                         "sub": [{
                             "name": "Wireframes",
-                            "id":"vide bold",
+                            "card-identity":"vide bold",
                             "sub": [{
                                 "name": "Figma",
                                 "description": "template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             },{
                                 "name": "Adobe XD",
                                 "description": "template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             },{
                                 "name": "Balsamiq",
                                 "description": "template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             },{
                                 "name": "Sketch",
                                 "description": "template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             },{
                                 "name": "InVision",
                                 "description": "template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             }]
                         }]
                     }]
@@ -172,1492 +172,1492 @@
         },
         {
             "name": "DEV BACK END",
-            "id":"plein bold",
+            "card-identity":"plein bold",
             "sub": [{
                 "name": "Server Web",
-                "id":"plein lower",
+                "card-identity":"plein lower",
                 "sub": [{
                     "name": "Nginx",
                     "description": "template",
-                    "id":"vide lower"
+                    "card-identity":"vide lower"
                 },{
                     "name": "Apache",
                     "description": "template",
-                    "id":"vide lower"
+                    "card-identity":"vide lower"
                 },{
                     "name": "Caddy",
                     "description": "template",
-                    "id":"vide lower"
+                    "card-identity":"vide lower"
                 }]
             },{
                 "name": "Server d'application linux",
-                "id":"plein lower",
+                "card-identity":"plein lower",
                 "sub": [{
                     "name": "Java",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "sub": [{
                         "name": "Websphere",
                         "description": "template",
-                        "id":"vide lower"
+                        "card-identity":"vide lower"
                     },{
                         "name": "Weblogic",
                         "description": "template",
-                        "id":"vide lower"
+                        "card-identity":"vide lower"
                     },{
                         "name": "Wildfly",
                         "description": "template",
-                        "id":"vide lower"
+                        "card-identity":"vide lower"
                     },{
                         "name": "WildflyTomcat/Apache",
                         "description": "template",
-                        "id":"vide lower"
+                        "card-identity":"vide lower"
                     },{
                         "name": "Glassfish",
                         "description": "template",
-                        "id":"vide lower"
+                        "card-identity":"vide lower"
                     }]
                 },{
                     "name": "PHP",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "sub": [{
                         "name": "XAMPP",
                         "description": "template",
-                        "id":"vide lower"
+                        "card-identity":"vide lower"
                     },{
                         "name": "WAMP Server",
                         "description": "template",
-                        "id":"vide lower"
+                        "card-identity":"vide lower"
                     },{
                         "name": "LAMP Stack",
                         "description": "template",
-                        "id":"vide lower"
+                        "card-identity":"vide lower"
                     },{
                         "name": "LiteSpeed",
                         "description": "template",
-                        "id":"vide lower"
+                        "card-identity":"vide lower"
                     }]
                 }]
             },{
                 "name": "API/Webservice",
-                "id":"plein lower",
+                "card-identity":"plein lower",
                 "sub": [{
                         "name": "Rest",
                         "description": "template",
-                        "id":"vide lower"
+                        "card-identity":"vide lower"
                 },{
                         "name": "WS SOAP",
                         "description": "template",
-                        "id":"vide lower"
+                        "card-identity":"vide lower"
                 },{
                         "name": "GraphQL",
                         "description": "template",
-                        "id":"vide lower"
+                        "card-identity":"vide lower"
                 },{
                         "name": "RPC",
                         "description": "template",
-                        "id":"vide lower"
+                        "card-identity":"vide lower"
                 }]
             },{
                 "name": "Dev",
-                "id": "plein lower",
+                "card-identity": "plein lower",
                 "sub": [{
                     "name": "Langages de prog",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "sub":[{
                         "name": "Rust",
-                        "id": "vide bold",
+                        "card-identity": "vide bold",
                         "sub": [{
                             "name": "Axum",
                             "description": "template",
-                            "id":"vide lower"
+                            "card-identity":"vide lower"
                         },{
                             "name": "ActixWeb",
                             "description": "template",
-                            "id":"vide lower"
+                            "card-identity":"vide lower"
                         },{
                             "name": "Rocket",
                             "description": "template",
-                            "id":"vide lower"
+                            "card-identity":"vide lower"
                         }]
                     },{
                         "name": "Python",
-                        "id":"vide bold",
+                        "card-identity":"vide bold",
                         "sub": [{
                             "name": "Framework",
-                            "id": "vide bold",
+                            "card-identity": "vide bold",
                             "sub": [{
                                 "name": "Django",
                                 "description":"template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             },{
                                 "name": "Flask",
                                 "description":"template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             },{
                                 "name": "Fast API",
                                 "description":"template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             },{
                                 "name": "Tornado",
                                 "description":"template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             },{
                                 "name": "CherryPy",
                                 "description":"template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             }]
                         }]
                     },{
                         "name": "C++",
-                        "id": "vide bold",
+                        "card-identity": "vide bold",
                         "sub": [{
                             "name": "Qt",
                             "description": "template",
-                            "id":"vide lower"
+                            "card-identity":"vide lower"
                         },{
                             "name": "wxWidgets",
                             "description": "template",
-                            "id":"vide lower"
+                            "card-identity":"vide lower"
                         },{
                             "name": "ImGUI",
                             "description": "template",
-                            "id":"vide lower"
+                            "card-identity":"vide lower"
                         }]
                     },{
                         "name": "Kotlin",
-                        "id":"vide bold",
+                        "card-identity":"vide bold",
                         "sub": [{
                             "name": "Ktor",
                             "description": "template",
-                            "id":"vide lower"
+                            "card-identity":"vide lower"
                         },{
                             "name": "Micronaut",
                             "description": "template",
-                            "id":"vide lower"
+                            "card-identity":"vide lower"
                         },{
                             "name": "Quarkus",
                             "description": "template",
-                            "id":"vide lower"
+                            "card-identity":"vide lower"
                         },{
                             "name": "Spring Framework",
                             "description": "template",
-                            "id":"vide lower"
+                            "card-identity":"vide lower"
                         }]
                     },{
                         "name": "PHP",
-                        "id":"vide bold",
+                        "card-identity":"vide bold",
                         "sub": [{
                             "name": "Framework",
-                            "id":"vide bold",
+                            "card-identity":"vide bold",
                             "sub": [{
                                 "name": "Symfony",
                                 "description": "template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             },{
                                 "name": "Laravel",
                                 "description": "template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             },{
                                 "name": "Codelgniter",
                                 "description": "template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             },{
                                 "name": "Laminas",
                                 "description": "template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             },{
                                 "name": "CakePHP",
                                 "description": "template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             },{
                                 "name": "Yii",
                                 "description": "template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             }]
                         },{
                             "name": "CMS",
-                            "id": "vide bold",
+                            "card-identity": "vide bold",
                             "sub" : [{
                                 "name": "CMS e-commerce",
-                                "id":"vide bold",
+                                "card-identity":"vide bold",
                                 "sub": [{
                                     "name": "Shopify",
-                                    "id":"vide lower",
+                                    "card-identity":"vide lower",
                                     "description": "template"
                                 },{
                                     "name": "Magenta",
-                                    "id":"vide lower",
+                                    "card-identity":"vide lower",
                                     "description": "template"
                                 },{
                                     "name": "Prestashop",
-                                    "id":"vide lower",
+                                    "card-identity":"vide lower",
                                     "description": "template"
                                 }]
                             },{
                                 "name": "Wordpress",
-                                "id": "vide lower",
+                                "card-identity": "vide lower",
                                 "description": "template"
                             },{
                                 "name": "Drupal",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description": "template"
                             }]
                         }]
                     },{
                         "name": "Langages résilients",
-                        "id":"vide bold",
+                        "card-identity":"vide bold",
                         "sub": [{
                             "name": "Cobol",
-                            "id": "vide lower",
+                            "card-identity": "vide lower",
                             "description": "template"
                         },{
                             "name": "RPG (AS400 Iseries)",
-                            "id": "vide lower",
+                            "card-identity": "vide lower",
                             "description": "template"
                         }]
                     },{
                         "name": "Ruby",
-                        "id":"vide bold",
+                        "card-identity":"vide bold",
                         "sub": [{
                             "name": "Framework",
-                            "id":"vide bold",
+                            "card-identity":"vide bold",
                             "sub": [{
                                 "name": "Rails",
                                 "description":"template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             },{
                                 "name": "Sinitra",
                                 "description":"template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             },{
                                 "name": "Ramaze",
                                 "description":"template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             },{
                                 "name": "Hanami",
                                 "description":"template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             },{
                                 "name": "Roda",
                                 "description":"template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             },{
                                 "name": "Padrino",
                                 "description":"template",
-                                "id":"vide lower"
+                                "card-identity":"vide lower"
                             }]
                         }]
                     },{
                         "name": "Java",
-                        "id":"plein bold",
+                        "card-identity":"plein bold",
                         "sub": [{
                             "name": "Framework",
-                            "id": "vide bold",
+                            "card-identity": "vide bold",
                             "sub": [{
                                 "name": "Spring",
-                                "id":"vide bold",
+                                "card-identity":"vide bold",
                                 "sub": [{
                                     "name": "Spring Boot",
-                                    "id":"vide lower",
+                                    "card-identity":"vide lower",
                                     "description":"template"
                                 },{
                                     "name": "Spring MVC",
-                                    "id":"vide lower",
+                                    "card-identity":"vide lower",
                                     "description":"template"
                                 },{
                                     "name": "Spring Security",
-                                    "id":"vide lower",
+                                    "card-identity":"vide lower",
                                     "description":"template"
                                 },{
                                     "name": "Spring Data",
-                                    "id":"vide lower",
+                                    "card-identity":"vide lower",
                                     "description":"template"
                                 },{
                                     "name": "Spring Cloud",
-                                    "id":"vide lower",
+                                    "card-identity":"vide lower",
                                     "description":"template"
                                 },{
                                     "name": "Spring Batch",
-                                    "id":"vide lower",
+                                    "card-identity":"vide lower",
                                     "description":"template"
                                 },{
                                     "name": "Spring Session",
-                                    "id":"vide lower",
+                                    "card-identity":"vide lower",
                                     "description":"template"
                                 }]
                             },{
                                 "name": "Jakarta",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description": "template"
                             },{
                                 "name": "Quarkus",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description": "template"
                             },{
                                 "name": "Micronaut",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description": "template"
                             },{
                                 "name": "Apache Struts",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description": "template"
                             },{
                                 "name": "Play Framework",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description": "template"
                             },{
                                 "name": "JSF",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description": "template"
                             },{
                                 "name": "Java FX",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description": "template"
                             }]
                         }]
                     },{
                         "name": "Golan",
-                        "id": "vide bold",
+                        "card-identity": "vide bold",
                         "sub": [{
                             "name": "Gin",
                             "description":"template",
-                            "id":"vide lower"
+                            "card-identity":"vide lower"
                         },{
                             "name": "Echo",
                             "description":"template",
-                            "id":"vide lower"
+                            "card-identity":"vide lower"
                         },{
                             "name": "Beego",
                             "description":"template",
-                            "id":"vide lower"
+                            "card-identity":"vide lower"
                         },{
                             "name": "Fiber",
                             "description":"template",
-                            "id":"vide lower"
+                            "card-identity":"vide lower"
                         },{
                             "name": "Buffalo",
                             "description":"template",
-                            "id":"vide lower"
+                            "card-identity":"vide lower"
                         }]
                     },{
                         "name": "Node JS",
-                        "id": "vide bold",
+                        "card-identity": "vide bold",
                         "sub": [{
                             "name": "Framework",
-                            "id":"vide bold",
+                            "card-identity":"vide bold",
                             "sub": [{
                                 "name": "Sails JS",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description":"template"
                             },{
                                 "name": "ExpressJS",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description":"template"
                             },{
                                 "name": "NestJS",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description":"template"
                             },{
                                 "name": "KoaJS",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description":"template"
                             },{
                                 "name": "HapiJS",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description":"template"
                             },{
                                 "name": "LoopbackJS",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description":"template"
                             },{
                                 "name": "MeteorJS",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description":"template"
                             },{
                                 "name": "FastifyJS",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description":"template"
                             }]
                         }]
                     },{
                         "name": "C#",
-                        "id":"vide bold",
+                        "card-identity":"vide bold",
                         "sub": [{
                             "name": ".net",
-                            "id":"vide bold",
+                            "card-identity":"vide bold",
                             "sub": [{
                                 "name": ".NET (.NET core)",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description": "template"
                             },{
                                 "name": "WPF",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description": "template"
                             },{
                                 "name": "ASP.net",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description": "template"
                             },{
                                 "name": "Blazor",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description": "template"
                             },{
                                 "name": "Entity Framework Core",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description": "template"
                             },{
                                 "name": ".NET MAUI",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description": "template"
                             },{
                                 "name": "Drapper",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description": "template"
                             }]
                         }]
                     },{
                         "name": "Scale",
-                        "id":"vide bold",
+                        "card-identity":"vide bold",
                         "sub": [{
                             "name": "Framework",
-                            "id":"vide bold",
+                            "card-identity":"vide bold",
                             "sub": [{
                                 "name": "Akka",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description":"template"
                             },{
                                 "name": "Play",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description":"template"
                             },{
                                 "name": "Apache Spark",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description":"template"
                             },{
                                 "name": "http4s",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description":"template"
                             },{
                                 "name": "ZIO",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description":"template"
                             },{
                                 "name": "Cats Effect",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description":"template"
                             },{
                                 "name": "Finch",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description":"template"
                             }]
                         }]
                     },{
                         "name": "API/Webservice",
-                        "id":"vide bold",
+                        "card-identity":"vide bold",
                         "sub": [{
                             "name": ".net",
                             "description":"template",
-                            "id":"vide lower"
+                            "card-identity":"vide lower"
                         }]
                     },{
                         "name":"VB.NET",
-                        "id":"vide bold",
+                        "card-identity":"vide bold",
                         "sub": [{
                             "name": ".net",
                             "description":"template",
-                            "id":"vide lower"
+                            "card-identity":"vide lower"
                         }]
                     }]
                 }]
 
             },{
                 "name":"ORM",
-                "id":"plein lower",
+                "card-identity":"plein lower",
                 "sub":[{
                     "name": "Microsoft.net",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "sub": [{
                         "name": "Nhibernate",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name": "Dapper",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name": "Entity framework",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     }]
                 }]
             }]
         },{
             "name": "Bonnes pratiques de dev",
-            "id":"plein bold",
+            "card-identity":"plein bold",
             "sub": [{
                 "name":"DDD",
-                "id":"vide lower",
+                "card-identity":"vide lower",
                 "description": "template"
             },{
                 "name":"SOLID",
-                "id":"vide lower",
+                "card-identity":"vide lower",
                 "description": "template"
             },{
                 "name":"Software Craftmanship",
-                "id":"vide lower",
+                "card-identity":"vide lower",
                 "description": "template"
             }]
         },{
             "name": "Bases de données",
-            "id":"plein bold",
+            "card-identity":"plein bold",
             "sub":[{
                 "name": "Orienté objet",
-                "id": "plein lower",
+                "card-identity": "plein lower",
                 "sub": [{
                     "name": "Versant Objet Database",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "GemStone/S",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "ObjectStore",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "ObjectDB",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "Db4o",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 }]
             },{
                 "name":"No SQL*",
-                "id":"plein lower",
+                "card-identity":"plein lower",
                 "sub": [{
                     "name": "Documentaire",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "sub": [{
                         "name":"CouchDB",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name":"Cloudant",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name":"Mango DB",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     }]
                 },{
                     "name": "Graphe",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "sub": [{
                         "name":"Neo4J",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name":"Dex",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     }]
                 },{
                     "name": "Colonne",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "sub": [{
                         "name":"Cassandra",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name":"Hbase",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name":"BigTable",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name":"Amazon DynamoDB",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     }]
                 },{
                     "name": "Documentaire",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "Hadoop",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name":"Key/Value",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "sub":[{
                         "name":"MemCached",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name":"Redis",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name":"Coherence",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     }]
                 }]
             },{
                 "name":"Langage",
-                "id":"plein lower",
+                "card-identity":"plein lower",
                 "sub":[{
                         "name":"Transact SQL (MS SQLserver/Azure)",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name":"PL-SQL (Oracle)",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name":"Langage SQL",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     }]
             },{
                 "name":"SGBRD (BDD / Relationnel)",
-                "id":"plein lower",
+                "card-identity":"plein lower",
                 "sub": [{
                     "name": "PostfreSQL",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "sub": [{
                         "name": "PostGIS",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     }]
                 },{
                     "name": "My SQL",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "sub": [{
                         "name": "Maria DB : version open source",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     }]
                 },{
                     "name": "SQLite",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "description":"template"
                 },{
                     "name": "DB2",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "description":"template"
                 },{
                     "name": "Oracle",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "sub": [{
                         "name": "Langage particulier PL SQL: rattaché à Oracle",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     }]
                 },{
                     "name": "Progress",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "sub": [{
                         "name": "Langage de programmation: profress 4G",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     }]
                 },{
                     "name": "Firebird",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "description":"template"
                 },{
                     "name": "Azure database (cloud)",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "description":"template"
                 },{
                     "name": "SQL serveur (Microsoft)",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "sub": [{
                         "name": "Acess",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name":"Excel",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     }]
                 }]
             },{
                 "name":"Outils",
-                "id":"plein lower",
+                "card-identity":"plein lower",
                 "sub":[{
                     "name":"PHPmyadmin",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name":"DataGrip (JetBrains)",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name":"DBeaver",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name":"DB Visualizer",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name":"Microsoft SQL Server Management Studio",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name":"Azure Data Studio",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name":"MySQL Workbench",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name":"pgAdmin (pour PostgreSQL)",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 }]
             }]
         },{
             "name":"DEVOPS",
-            "id": "plein bold",
+            "card-identity": "plein bold",
             "sub": [{
                 "name": "IaC",
-                "id":"vide bold",
+                "card-identity":"vide bold",
                 "sub":[{
                     "name": "Terraform",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "Ansible",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "Puppet",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 }]
             },{
                 "name": "Sécurité",
-                "id":"vide bold",
+                "card-identity":"vide bold",
                 "sub":[{
                     "name": "SonarQube",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 }]
             },{
                 "name": "CI/CD",
-                "id":"vide bold",
+                "card-identity":"vide bold",
                 "sub":[{
                     "name": "Jenkins",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "GitLab CI/CD",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "GitHub Actions",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "Circle CI",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 }]
             },{
                 "name": "Monitoring",
-                "id":"vide bold",
+                "card-identity":"vide bold",
                 "sub":[{
                     "name": "Prometheus",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "Grafana",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "Datadog",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 }]
             },{
                 "name": "Outil",
-                "id":"vide bold",
+                "card-identity":"vide bold",
                 "sub":[{
                     "name": "Git",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "sub": [{
                         "name": "GitLab",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name": "GitHub",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name": "Bitbucket",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     }]
                 }]
             },{
                 "name": "Orchestration et conteneurisation",
-                "id":"vide bold",
+                "card-identity":"vide bold",
                 "sub":[{
                     "name": "Docker",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "Kubernetes",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 }]
             }]
         },{
             "name":"Temps réel embarqué",
-            "id":"plein bold",
+            "card-identity":"plein bold",
             "sub":[{
                 "name": "Software: embarqué",
-                "id":"plein lower",
+                "card-identity":"plein lower",
                 "sub": [{
                     "name": "Langage",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "sub":[{
                         "name": "C",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "C++",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "Rust",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "JAVA",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "ADA (Domaine aéro)",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     }]
                 },{
                     "name": "Outils",
-                    "id":"plein lower",
+                    "card-identity":"plein lower",
                     "sub":[{
                         "name": "Autres outils",
-                        "id":"vide bold",
+                        "card-identity":"vide bold",
                         "sub":[{
                             "name": "Jtag",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "Wireshark (analyse réseau)",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "Valgrind",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "Make/Cmake",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         }]
                     },{
                         "name": "Compilateur/deboggueur",
-                        "id":"vide bold",
+                        "card-identity":"vide bold",
                         "sub":[{
                             "name": "GCC",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "Clang/LLVM",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "GDB (debug)",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         }]
                     },{
                         "name": "IDE",
-                        "id":"vide bold",
+                        "card-identity":"vide bold",
                         "sub":[{
                             "name": "Keil",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "IAR Embedded",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "MPLAB",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "Eclipse",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "VS code",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         }]
                     }]
                 },{
                     "name": "Protocoles/bus",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "sub":[{
                             "name": "Liaisons séries : RS232, RS485",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "Wifi",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "Bluetooth",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "BLE",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "ZIGBEE",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "GSM (4G, 5G...)",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "MQTT(IoT)",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "CAN (automobile)",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "I2C",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "Modbus",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "Ethernet",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                     }]
                 },{
                     "name": "OS & plate-formes",
-                    "id": "vide bold",
+                    "card-identity": "vide bold",
                     "sub":[{
                         "name": "Plateforme dev Linux embarqué",
-                        "id":"vide bold",
+                        "card-identity":"vide bold",
                         "sub": [{
                             "name": "Yocto",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "Buildroot",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         }]
                     },{
                         "name": "RTLinux",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name": "FreeRTOS",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name": "μC/Os-II",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name": "Vxworks",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name": "Xenomai",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name": "Ecos",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name": "Osek (automibile)",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name": "QNX",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name": "Zephyr RTOS (IoT)",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     }]
                 }]
             },{
                 "name": "Hardware : électronique",
-                "id":"plein lower",
+                "card-identity":"plein lower",
                 "sub": [{
                     "name": "Outils",
-                    "id": "vide bold",
+                    "card-identity": "vide bold",
                     "sub": [{
                         "name": "LTSpice",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "Pspice",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "Kicad",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "Eagle",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "Orcad",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     }]
                 },{
                     "name": "Conception hardware",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "sub":[{
                         "name": "Électronique analogique",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name": "Électronique radio fréquences",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name": "Électronique numérique",
-                        "id":"vide bold",
+                        "card-identity":"vide bold",
                         "sub": [{
                             "name": "Composant programmable -FPGA ou CPLD",
-                            "id":"vide bold",
+                            "card-identity":"vide bold",
                             "sub": [{
                                 "name": "Langage VHDL",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description":"template"
                             },{
                                 "name": "Langage Verilog",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description":"template"
                             }]
                         }]
                     },{
                         "name": "Électronique de puissance",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     }]
                 }]
             }]
         }, {
             "name": "Dev mobile",
-            "id":"plein bold",
+            "card-identity":"plein bold",
             "sub": [{
                 "name": "Android",
-                "id":"plein lower",
+                "card-identity":"plein lower",
                 "sub": [{
                     "name": "C++",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "Java",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "Kotlin",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 }]
             },{
                 "name": "iOS",
-                "id":"plein lower",
+                "card-identity":"plein lower",
                 "sub": [{
                     "name": "Swift",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "sub": [{
                         "name": "SwiftUI",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name": "Ulkit",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     }]
                 },{
                     "name": "Objective-c",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 }]
             },{
                 "name": "Hybride",
-                "id":"plein lower",
+                "card-identity":"plein lower",
                 "sub": [{
                     "name": "Framework 7",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "Kotlin Multiplatform",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "Cordova",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "Ionic",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "Flutter",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 }]
             },{
                 "name": "Javascript",
-                "id":"plein lower",
+                "card-identity":"plein lower",
                 "sub": [{
                     "name": "Appcelerator Titanium",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "Reactscript",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "ReactNative",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "Nativescript",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 }]
             }]
         },{
             "name": "Système et réseaux",
-            "id":"plein bold",
+            "card-identity":"plein bold",
             "sub":[{
                 "name": "Virtualisation",
-                "id":"plein lower",
+                "card-identity":"plein lower",
                 "sub":[{
                     "name": "Nutanix",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "Citrix",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "Oracle VMVirtualBox",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "VMware Workstation Pro",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "Microsoft HyperV",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 }]
             },{
                 "name": "Plateforme",
-                "id":"plein lower",
+                "card-identity":"plein lower",
                 "sub":[{
                     "name": "Unix",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "sub": [{
                         "name":"HP UNIX",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name":"SCO unix",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name":"AIX",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name":"Solaris",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     }]
                 },{
                     "name": "Linux",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "sub": [{
                         "name": "Distribution",
-                        "id":"vide bold",
+                        "card-identity":"vide bold",
                         "sub":[{
                             "name": "Fedora",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "Arch Linux",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "Linux Mint",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "Redhat",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "Debian",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "Ubuntu",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         }]
                     }]
                 },{
                     "name": "Windows",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "sub": [{
                         "name": "Outils collaboratif",
-                        "id":"vide bold",
+                        "card-identity":"vide bold",
                         "sub": [{
                             "name": "Confluence",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "Slack",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "Talkspirit",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "HLC Note",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "Microsoft 365",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "Exchange",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "Google Workplace",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         }]
                     },{
                         "name":"Poste de travail",
-                        "id":"vide bold",
+                        "card-identity":"vide bold",
                         "sub":[{
                             "name": "Windows 11",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "MECM",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         }]
                     },{
                         "name":"Serveur",
-                        "id":"vide bold",
+                        "card-identity":"vide bold",
                         "sub": [{
                             "name": "Version",
-                            "id":"vide bold",
+                            "card-identity":"vide bold",
                             "sub": [{
                                 "name": "Windows server 2025",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description":"template"
                             },{
                                 "name": "Windows server 2022",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description":"template"
                             },{
                                 "name": "Windows server 2019",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description":"template"
                             }]
                         },{
                             "name":"Active directory",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         }]
                     }]
                 },{
                     "name": "Cloud",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "sub":[{
                         "name": "Cloud public",
-                        "id":"vide bold",
+                        "card-identity":"vide bold",
                         "sub": [{
                             "name": "IBM cloud",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "AWS",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "Google Cloud Plateform",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "Microsoft Azure",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "OVH Cloud",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "Scaleway",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "Ionos",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "Oracle Cloud Infrastructure (OIC)",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         }]
                     }]
                 }]
             },{
                 "name": "Grands et moyens",
-                "id":"plein lower",
+                "card-identity":"plein lower",
                 "sub":[{
                     "name": "Système",
-                    "id":"plein lower",
+                    "card-identity":"plein lower",
                     "sub":[{
                         "name": "AS400/Iseries",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name":"MVS/OS390",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     }]
                 }]
             },{
                 "name": "Scripting automatisation",
-                "id":"vide bold",
+                "card-identity":"vide bold",
                 "sub":[{
                     "name": "Python",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "Powershell",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "Bash / Shell",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "Perl",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "Groovy",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "R",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 }]
             },{
                 "name": "Réseaux",
-                "id":"plein lower",
+                "card-identity":"plein lower",
                 "sub": [{
                     "name": "Firewall",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "sub": [{
                         "name": "Checkpoint",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "Palo Alto",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "Stormshield",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "Fortinet",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "Cisco",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     }]
                 },{
                     "name": "Réseaux",
-                    "id": "vide bold",
+                    "card-identity": "vide bold",
                     "sub":[{
                         "name": "Open VPN",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name": "Firewall",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name": "Switch",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name": "Routeurs",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name": "Cisco",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name": "VPN",
-                        "id":"vide bold",
+                        "card-identity":"vide bold",
                         "sub":{
                             "name": "Open VPN",
-                            "id": "vide lower",
+                            "card-identity": "vide lower",
                             "description": "template"
                         }
                     }]
@@ -1665,361 +1665,361 @@
             }]
         },{
             "name": "Gestion de projet",
-            "id":"plein bold",
+            "card-identity":"plein bold",
             "sub": [{
                 "name": "Outils",
-                "id":"plein lower",
+                "card-identity":"plein lower",
                 "sub": [{
                     "name": "Monday",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description": "template"
                 },{
                     "name": "Asana",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description": "template"
                 },{
                     "name": "Trello",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description": "template"
                 },{
                     "name": "Redmine",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description": "template"
                 },{
                     "name": "Gantt",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description": "template"
                 },{
                     "name": "PickUp",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description": "template"
                 },{
                     "name": "MS Projet",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description": "template"
                 },{
                     "name": "Jira",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description": "template"
                 },{
                     "name": "Zoho Projects",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description": "template"
                 },{
                     "name": "Basecamp",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description": "template"
                 },{
                     "name": "Notion",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description": "template"
                 },{
                     "name": "Airtable",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description": "template"
                 }]
             },{
                 "name": "Méthode",
-                "id": "plein lower",
+                "card-identity": "plein lower",
                 "sub": [{
                     "name": "Agile",
-                    "id": "vide bold",
+                    "card-identity": "vide bold",
                     "sub": [{
                         "name": "Kanban",
-                        "id": "vide bold",
+                        "card-identity": "vide bold",
                         "sub": {
                             "name": "Scrumban",
-                            "id": "vide lower",
+                            "card-identity": "vide lower",
                             "description":"template"
                         }
                     },{
                         "name": "Scrum",
-                        "id":"vide bold",
+                        "card-identity":"vide bold",
                         "sub":[{
                             "name": "Scrumban",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         },{
                             "name": "LEAN",
-                            "id":"vide lower",
+                            "card-identity":"vide lower",
                             "description":"template"
                         }]
                     },{
                         "name": "XP",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "SAFe",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "Crystal",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "FDD",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     }]
                 },{
                     "name": "Cycle en V",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "Cascade",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "Prince2",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 }]
             }]
         },{
             "name": "Data / IA",
-            "id": "plein bold",
+            "card-identity": "plein bold",
             "sub": [{
                 "name": "Data engineering",
-                "id": "vide bold",
+                "card-identity": "vide bold",
                 "sub": [{
                     "name": "Spark",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "Kafka",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "Apache Flink",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "Airflow",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "Dask",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "Presto / Trino",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "Apache Pulsar",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "RabbitMQ",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "RedPanda",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 }]
             },{
                 "name": "Analyse & visualisation",
-                "id":"vide bold",
+                "card-identity":"vide bold",
                 "sub":[{
                     "name": "Palantir",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "Cirro",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "MetaMarkets",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "Altair Panopticon",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "Datameer",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "Tibco (Spotfire)",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "Rapidminer",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "Zoho Analytics",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "Looker",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "Domo",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name": "Sisense",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 }]
             },{
                 "name": "Progiciels d'informatiques",
-                "id": "plein lower",
+                "card-identity": "plein lower",
                 "sub": {
                     "name": "décisionnels",
-                    "id":"plein lower",
+                    "card-identity":"plein lower",
                     "sub":{
                         "name": "(datawarehouse) /",
-                        "id":"plein lower",
+                        "card-identity":"plein lower",
                         "sub": {
                             "name": "BI business Intelligence",
-                            "id": "plein lower",
+                            "card-identity": "plein lower",
                             "sub": [{
                                 "name": "BDD",
-                                "id":"vide lower",
+                                "card-identity":"vide lower",
                                 "description":"template"
                             },{
                                 "name": "Traitement de données / modélisation mathématique",
-                                "id": "vide bold",
+                                "card-identity": "vide bold",
                                 "sub": [{
                                     "name": "Python (Numpy, Pandas, SciPy, Scikit-learn)",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 },{
                                     "name": "Julius AI",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 },{
                                     "name": "MathGPTPro",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 },{
                                     "name": "Mathway / MathPapa",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 },{
                                     "name": "Maple",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 },{
                                     "name": "R",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 },{
                                     "name": "Excel",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 },{
                                     "name": "Alternyx",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 },{
                                     "name": "Power Query",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 },{
                                     "name": "SAS",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 },{
                                     "name": "Sphinx",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 },{
                                     "name": "Dataiku",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 }]
                             },{
                                 "name": "Data Platform",
-                                "id": "vide bold",
+                                "card-identity": "vide bold",
                                 "sub": [{
                                     "name": "Snowflake",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 },{
                                     "name": "Databricks",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 },{
                                     "name": "Azure Fabric",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 },{
                                     "name": "BigQuery",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 },{
                                     "name": "Teradata",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 }]
                             },{
                                 "name": "Alimentation / ETL",
-                                "id":"vide bold",
+                                "card-identity":"vide bold",
                                 "sub":[{
                                     "name": "Talend/Talaxie",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 },{
                                     "name": "Informatica",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 },{
                                     "name": "DBT",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 },{
                                     "name": "Airbyte",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 },{
                                     "name": "IBM DataStage",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 },{
                                     "name": "Pentaho Data Integration",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 },{
                                     "name": "Fivetran",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 },{
                                     "name": "Stitch",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 },{
                                     "name": "Integrate.io",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 },{
                                     "name": "Hevo Data",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 },{
                                     "name": "Matilion",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 },{
                                     "name": "AWS Glue",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 },{
                                     "name": "Google Cloud Data Fusion",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 },{
                                     "name": "Azure Data Factory",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 },{
                                     "name": "Cloudera DataFlow",
-                                    "id": "vide lower",
+                                    "card-identity": "vide lower",
                                     "description":"template"
                                 }]
                             }]
@@ -2028,396 +2028,612 @@
                 }
             },{
                 "name": "BI",
-                "id":"plein lower",
+                "card-identity":"plein lower",
                 "sub": [{
                     "name":"SAP Business Objects (SAP BI)",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name":"Birst",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name":"Microsoft Power BI",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name":"Tableau",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name":"Qlik Sense",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name":"MyReport",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name":"Microstrategy",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name":"GoodData",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name":"Pentaho",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name":"SAS",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 },{
                     "name":"Cognos",
-                    "id": "vide lower",
+                    "card-identity": "vide lower",
                     "description":"template"
                 }]
             }]
         },{
             "name": "Outils de dev",
-            "id":"plein bold",
+            "card-identity":"plein bold",
             "sub": [{
                 "name":"Maven ( automatisation de production pour JAVA",
-                "id": "vide lower",
+                "card-identity": "vide lower",
                 "description":"template"
             },{
                 "name":"Gradle (Android)",
-                "id": "vide lower",
+                "card-identity": "vide lower",
                 "description":"template"
             },{
                 "name": "Outils de Versionning",
-                "id": "plein lower",
+                "card-identity": "plein lower",
                 "sub":[{
                     "name": "Git",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "sub": [{
                         "name": "GitHub",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name": "Gitlab",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     },{
                         "name": "Bitbucket",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     }]
                 },{
                     "name": "SVN",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "Mercurial",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "SpiraTest",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 }]
             },{
                 "name": "IDE",
-                "id": "plein lower",
+                "card-identity": "plein lower",
                 "sub": [{
                     "name": "Visual Studio",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "Eclipse, NetBeans, intelliJ (Java)",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "PhpStorm (PHP)",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "WebStorm, BlueFish, NotePad++",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 }]
             },{
                 "name": "Qualité de code",
-                "id":"plein lower",
+                "card-identity":"plein lower",
                 "sub": [{
                     "name": "Peer/Pair programming",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "sub": [{
                         "name": "Travailler à deux sur le code",
-                        "id":"vide lower",
+                        "card-identity":"vide lower",
                         "description":"template"
                     }]
                 },{
                     "name": "Revues de codes",
-                    "id":"vide bold",
+                    "card-identity":"vide bold",
                     "sub":[{
                         "name": "Relectur par un autre dev",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "Linter",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "SonarQube",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "Codebeat",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "Visual Expert",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "Rhodecode",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "Review Board",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "Crucible",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     }]
                 }]
             }]
         },{
             "name": "Cybersécurité",
-            "id":"plein bold",
+            "card-identity":"plein bold",
             "sub": [{
                 "name": "Sécurité Infra et réseaux",
-                "id": "plein lower",
+                "card-identity": "plein lower",
                 "sub": [{
                     "name": "Firewall",
-                    "id": "plein lower",
+                    "card-identity": "plein lower",
                     "sub": [{
                         "name": "Cisco",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "Fortinet",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "Stormshield",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "Palo Alto",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "Checkpoint",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     }]
                 },{
                     "name": "Réseaux",
-                    "id": "plein lower",
+                    "card-identity": "plein lower",
                     "sub": [{
                         "name": "Firewall",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "Switch",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "Routeurs",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "Cisco",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "VPN",
-                        "id": "vide bold",
+                        "card-identity": "vide bold",
                         "sub": {
                             "name": "Open VPN",
-                            "id": "vide lower",
+                            "card-identity": "vide lower",
                             "description":"template"
                         }
                     }]
                 }]
             },{
                 "name": "Outils d'entrainement /CTF",
-                "id": "plein lower",
+                "card-identity": "plein lower",
                 "sub": [{
                     "name": "Google CTF",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "Try Hack Me",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "Root Me",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "CTFtime",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "OverTheWire",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "PicoCTF",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "VulnHub",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "Hacker101",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "Google CTF",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 }]
             },{
                 "name": "Buy Bounty",
-                "id": "plein lower",
+                "card-identity": "plein lower",
                 "sub": [{
                     "name": "Yeswehack",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "Cobalt",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "Intigriti",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "Synack",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "HackerOne",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "Bugcrowd",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "OpenBugBounty",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "Detectify Crowdsource",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "Zerocopter",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "SaheHats",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 }]
             },{
                 "name": "Gouvernance",
-                "id": "plein lower",
+                "card-identity": "plein lower",
                 "sub": [{
                     "name": "PCA",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "PRA",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "PCI",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "PSSI",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "SMSI",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "EBIOS RM",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "MEHARI",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "Guide hygiène ANSSI",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "Normes",
-                    "id":"vide lower",
+                    "card-identity":"vide lower",
                     "sub": [{
                         "name": "ISO 27001",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "ISO 27002",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "ISO 27005",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "NIS2",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "NIST",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "COBIT",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "PCI DSS",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "SOC 2",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "HDS",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "ITIL",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     },{
                         "name": "RGPD",
-                        "id": "vide lower",
+                        "card-identity": "vide lower",
                         "description":"template"
                     }]
                 }]
             },{
                 "name": "Outils sécurité",
-                "id": "plein lower",
-                "sub": [{}]
+                "card-identity": "plein lower",
+                "sub": [{
+                    "name": "Test d'intrusion",
+                    "card-identity": "vide bold",
+                    "sub": [{
+                        "name": "Metasploit",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    },{
+                        "name": "Nassus",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    },{
+                        "name": "BurpSuite",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    },{
+                        "name": "Nmap",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    }]
+                },{
+                    "name": "SIEM",
+                    "card-identity": "vide bold",
+                    "sub": [{
+                        "name": "LogRhythm",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    },{
+                        "name": "QRadar",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    },{
+                        "name": "Splunk",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    }]
+                },{
+                    "name": "Réponse aux incidents",
+                    "card-identity": "vide bold",
+                    "sub": [{
+                        "name": "Cisco SecureX",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    },{
+                        "name": "Tanium",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    },{
+                        "name": "FireEye",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    }]
+                },{
+                    "name": "IDS/IPS",
+                    "card-identity": "vide bold",
+                    "sub": [{
+                        "name": "Cisco Firepower",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    },{
+                        "name": "Suricata",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    },{
+                        "name": "Snort",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    }]
+                },{
+                    "name": "IAM",
+                    "card-identity": "vide bold",
+                    "sub": [{
+                        "name": "ForgeRock",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    },{
+                        "name": "Okta",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    },{
+                        "name": "Microsoft Identity",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    }]
+                },{
+                    "name": "WAF",
+                    "card-identity": "vide bold",
+                    "sub": [{
+                        "name": "f5 BIG-IP ASM",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    },{
+                        "name": "Cloudflare",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    },{
+                        "name": "Imperva",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    }]
+                },{
+                    "name": "Reverse Engineering",
+                    "card-identity": "vide bold",
+                    "sub": [{
+                        "name": "Apktool",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    },{
+                        "name": "JADX",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    },{
+                        "name": "GDB",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    },{
+                        "name": "Binary Ninja",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    },{
+                        "name": "Windbg",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    },{
+                        "name": "x64dbg",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    },{
+                        "name": "OllyDbg",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    },{
+                        "name": "Radare2",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    },{
+                        "name": "Ghidra",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    },{
+                        "name": "ISA Pro",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    }]
+                },{
+                    "name": "Solution de chiffrement",
+                    "card-identity": "vide bold",
+                    "sub": [{
+                        "name": "Bitlocker",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    },{
+                        "name": "VeraCrypt",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    },{
+                        "name": "PGP",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    }]
+                },{
+                    "name": "Endpoint Security",
+                    "card-identity": "vide bold",
+                    "sub": [{
+                        "name": "Carbon Black",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    },{
+                        "name": "CrowdStrike",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    },{
+                        "name": "SentinelOne",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    }]
+                },{
+                    "name": "Antivirus",
+                    "card-identity": "vide bold",
+                    "sub": [{
+                        "name": "Symantec Endpoint Protection",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    },{
+                        "name": "Kaspersky",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    },{
+                        "name": "McAfee",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    }]
+                },{
+                    "name": "Security Cloud",
+                    "card-identity": "vide bold",
+                    "sub": [{
+                        "name": "Google Cloud Security Command Center",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    },{
+                        "name": "Microsoft Azure Security Center",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    },{
+                        "name": "AWS Security Hub",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    }]
+                },{
+                    "name": "Application Web",
+                    "card-identity": "vide bold",
+                    "sub": [{
+                        "name": "OWASP",
+                        "card-identity": "vide lower",
+                        "description": "template"
+                    }]
+                }]
             }]
         }
     ]
