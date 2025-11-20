@@ -19,7 +19,7 @@ label{
 #cherch{
     padding:1%;
 }
-.search{
+#search{
     background-color: #EA894B;
     color :white;
     padding: 5px 20px;
@@ -29,7 +29,7 @@ label{
     font-size: 20px;
     transition: background-color:0.3s ease;
 }
-.search:hover{
+#search:hover{
     background-color: #9c4d1c;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
