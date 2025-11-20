@@ -57,69 +57,6 @@ function searchInJson(jsonInput, attendu){
             jsonInput: dict -> the dict that hold the card
             attendu: str -> the expected value for the name
     */
-    //let cardIdentity = jsonInput['card-identity']; //get the name value from the array
-    //let cardName = jsonInput['name']; //get the card name
-    //
-    //let toSend = [];
-    //
-    ///*___ Test some valuse ___*/
-    //console.log("---------------------------------------")
-    //console.log(cardName);
-    ////console.log(cardIdentity);
-    //console.log(jsonInput);
-    ////console.log(attendu);
-    ////console.log(currentPath);
-    ////console.log(position);
-    ////console.log("_____________________________");
-    ////console.log(jsonInput['sub'][position]);
-    ////console.log("_____________________________")
-    ////console.log("NEXT VALUE \n \n \n")
-    //console.log("---------------------------------------")
-    //
-    //
-    //
-    ////check if the card has a sub categorie, but checking it s card identity
-    //if (cardIdentity === "vide lower"){
-    //    //tell if the card is the right one
-    //    if (cardName.includes(attendu)){
-    //        toSend.push([attendu, jsonInput['card-identity'], currentPath, jsonInput['description']]); //add all the element to make the card in the toSend list
-    //    }
-    //    //check if the next value is in the array
-    //    else if (position + 1 == jsonInput.length) {
-    //        currentPath.pop(); //remove the last element from the path 
-    //        position = 0
-    //        searchInJson(jsonInput, attendu, currentPath, position);
-    //    }
-    //    else{
-    //        currentPath[currentPath.length - 1] = position; //edit the position in the path
-    //        searchInJson(jsonInput, attendu, currentPath, position + 1); //search the next value in 
-    //    }
-    //}
-    //
-    //
-    ////do the cards who have a sub categorie in them
-    //else{
-    //    //if it s one of the cards
-    //    if (cardName.includes(attendu)){
-    //        toSend.push([attendu, jsonInput['card-identity'], currentPath]); //return all the element to make the card
-    //    };
-    //    
-    //    // if the next card is the last one 
-    //    if (currentPath[currentPath.length - 1 ] + 1 == jsonInput.length) {
-    //        currentPath.pop();
-    //        currentPath[currentPath.length - 2] += 1;
-    //        position = 0;
-    //        searchInJson(jsonInput, attendu, currentPath, position);
-    //    }
-    //    else {
-    //        searchInJson(jsonInput['sub'][position], attendu, currentPath, position + 1);
-    //    };
-    //
-    //    return toSend;
-    //}
-    //
-    //return toSend
-
     if (jsonInput['card-identity'] !== 'vide lower'){ //if card not the last row
         if (jsonInput['name'].includes(attendu)){ //check if the attendue value is in the name 
             toR.push([jsonInput['name'], jsonInput['card-identity']]) //add it to the toR list
