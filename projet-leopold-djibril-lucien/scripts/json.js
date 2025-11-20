@@ -48,20 +48,29 @@ async function loadJsonFile() {
     return data
 }
 
-function searchInJson(jsonInput, attendu, currentPath){
+function searchInJson(jsonInput, attendu, currentPath, position){
     /*
         depth search in the json
             jsonInput: dict -> the dict that hold the card
             attendu: str -> the expected value for the name
             currentPath: list -> hold the current path in the json file of the card
+            position: int -> hold the current position in the array
     */
     let cardIdentity = jsonInput['card-identity']; //get the name value from the array
-    let cardName = jsonInput['name'];
+    let cardName = jsonInput['name']; //get the card name
+    //check if the card has a sub categorie, but checking it s card identity
     if (cardIdentity === "vide lower"){
+        //tell if the card is the right one
         if (cardName === attendu){
             return [result, jsonInput['card-identity'], currentPath, jsonInput['description']]; //return all the element to make the card
         }
-        
+        //check if the next value is in the array
+        else if (position == jsonInput) {
+            None;
+        }
+        else{
+            searchInJson(jsonInput, attendu, currentPath, position + 1);
+        }
     }
     
     //check if we have found the card by checking if the name is the same as what we want
