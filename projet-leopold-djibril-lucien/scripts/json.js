@@ -37,45 +37,50 @@ function cardRemover(name){
 }
 
 
-async function loadJsonFile() {
+async function loadJsonFile(textToSearch) {
     const response = await fetch('projet-leopold-djibril-lucien/json/map.json');
     const data = await response.json();
 
-    toR = []
+    toR = []; // 0 -> name; 1 -> card-identity; 2 -> parents; 3 -> Description;
 
     data['secteur'].forEach(element => {
-        searchInJson(element, 'j', [], 0);
+        searchInJson(element, textToSearch.toLowerCase());
     });
 
-    console.log(toR);
+    console.log(toR[2]);
+
+    toR.forEach(element => {
+        
+    });
+
+    return toR
 }
 
 
-function searchInJson(jsonInput, attendu){
+function searchInJson(jsonInput, attendu, previous){
     /*
         depth search in the json
             jsonInput: dict -> the dict that hold the card
             attendu: str -> the expected value for the name
     */
     if (jsonInput['card-identity'] !== 'vide lower'){ //if card not the last row
-        if (jsonInput['name'].includes(attendu)){ //check if the attendue value is in the name 
-            toR.push([jsonInput['name'], jsonInput['card-identity']]) //add it to the toR list
+        text = jsonInput['name'].toLowerCase(); //put text in lowercase
+        if (text.includes(attendu)){ //check if the attendue value is in the name 
+            toR.push([jsonInput['name'], jsonInput['card-identity'], previous, 'pas de description pour l instant']) //add it to the toR list
         }
         jsonInput['sub'].forEach(element => { //go into each list element
-            searchInJson(element, attendu); //search the lower element
+            searchInJson(element, attendu, jsonInput['name']); //search the lower element
         });
     }
     else {
-        if (jsonInput['name'].includes(attendu)){ //check if the attendue value is in the name 
-            toR.push([jsonInput['name'], jsonInput['card-identity'], jsonInput['description']]) //add it to the toR list
+        text = jsonInput['name'].toLowerCase(); //put the text in lowercase
+        if (text.includes(attendu)){ //check if the attendue value is in the name 
+            toR.push([jsonInput['name'], jsonInput['card-identity'],previous, jsonInput['description']]) //add it to the toR list
         }
     }
-
-    console.log(jsonInput['name']);
 }
 
-loadJsonFile();
-
+a = loadJsonFile('Framework');
 
 //cardCreator(data['secteur'][0]['name'], 'tech-list', 'description', data['secteur'][0]['card-identity']);
 //console.log(data['secteur'][0]['name'])
