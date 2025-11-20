@@ -1,0 +1,16 @@
+body{
+    background-color:rgba(0, 0, 0, 0.816);
+}
+.text{
+     color: aliceblue;
+    text-wrap-style: inherit;
+}
+.entete{
+  color: orange;
+    display:flex;
+    justify-content: center;
+    
+}
+.avant-titre{
+    color: orangered;
+}
