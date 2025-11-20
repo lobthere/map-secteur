@@ -41,9 +41,13 @@ async function loadJsonFile() {
     const response = await fetch('projet-leopold-djibril-lucien/json/map.json');
     const data = await response.json();
 
+    toR = []
+
     data['secteur'].forEach(element => {
-        searchInJson(element, 'DEV FRONT END', [], 0);
+        searchInJson(element, 'j', [], 0);
     });
+
+    console.log(toR);
 }
 
 
@@ -115,25 +119,25 @@ function searchInJson(jsonInput, attendu){
     //}
     //
     //return toSend
-    let toR = [];
 
     if (jsonInput['card-identity'] !== 'vide lower'){ //if card not the last row
+        if (jsonInput['name'].includes(attendu)){ //check if the attendue value is in the name 
+            toR.push([jsonInput['name'], jsonInput['card-identity']]) //add it to the toR list
+        }
         jsonInput['sub'].forEach(element => { //go into each list element
-            console.assert()
-            toR.push(jsonInput);
             searchInJson(element, attendu); //search the lower element
         });
     }
     else {
-        toR.push(jsonInput);
+        if (jsonInput['name'].includes(attendu)){ //check if the attendue value is in the name 
+            toR.push([jsonInput['name'], jsonInput['card-identity'], jsonInput['description']]) //add it to the toR list
+        }
     }
 
-    console.log(toR);
+    console.log(jsonInput['name']);
 }
 
 loadJsonFile();
-
-console.log(jsonFile());
 
 
 //cardCreator(data['secteur'][0]['name'], 'tech-list', 'description', data['secteur'][0]['card-identity']);
