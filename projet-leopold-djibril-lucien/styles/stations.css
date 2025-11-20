@@ -1,16 +1,61 @@
 body{
-    background-color:rgba(0, 0, 0, 0.816);
+    background-color:rgba(238, 130, 238, 0.575)
 }
 .text{
-     color: aliceblue;
+     color: black;
     text-wrap-style: inherit;
 }
 .entete{
-  color: orange;
+  color: orange ;
     display:flex;
     justify-content: center;
     
 }
 .avant-titre{
-    color: orangered;
+    color: orange;
+}
+.class1{
+    color: orange;
+display:flex;
+    justify-content: center;
+    
+}
+.class2{
+    color: orange;
+display:flex;
+    justify-content: center;
+}
+.class3{
+    color: orange;
+display:flex;
+    justify-content: center;
+}
+.class4{
+    color: orange;
+display:flex;
+    justify-content: center;
+}
+.class5{
+    color: orange;
+display:flex;
+    justify-content: center;
+}.text1{
+     color:black;
+    text-wrap-style: inherit;
+}
+.text2{
+     color: black;
+    text-wrap-style: inherit;
+}
+.text3{
+     color: black;
+    text-wrap-style: inherit;
+}
+.text4{
+     color: black;
+    text-wrap-style: inherit;
+}
+.text5{
+     color:black;
+    text-wrap-style: inherit;
 }
