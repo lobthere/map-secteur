@@ -37,7 +37,11 @@ function cardRemover(name){
 }
 
 
-async function loadJsonFile(textToSearch) {
+async function loadJsonFile(textToSearch, subCard) {
+    /*
+        load the json file and 
+    */
+
     const response = await fetch('projet-leopold-djibril-lucien/json/map.json');
     const data = await response.json();
 
@@ -46,13 +50,11 @@ async function loadJsonFile(textToSearch) {
     data['secteur'].forEach(element => {
         searchInJson(element, textToSearch.toLowerCase());
     });
-
-    console.log(toR[2]);
-
+    temp = document.getElementById(subCard);
+    temp.innerHTML = '';
     toR.forEach(element => {
-        
+        cardCreator(element[0], subCard, element[3], element[1]);
     });
-
     return toR
 }
 
@@ -79,8 +81,3 @@ function searchInJson(jsonInput, attendu, previous){
         }
     }
 }
-
-a = loadJsonFile('Framework');
-
-//cardCreator(data['secteur'][0]['name'], 'tech-list', 'description', data['secteur'][0]['card-identity']);
-//console.log(data['secteur'][0]['name'])
