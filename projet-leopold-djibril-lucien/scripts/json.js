@@ -41,51 +41,72 @@ async function loadJsonFile() {
     const response = await fetch('projet-leopold-djibril-lucien/json/map.json');
     const data = await response.json();
 
-    data['secteur'].forEach(element => {
-        console.log(searchInJson(element));
-    });
+    searchInJson(data['secteur'][0], 'DEV FRONT END', []);
 
-    return data
+    //data['secteur'].forEach(element => {
+    //    searchInJson(element, 'DEV FRONT END', [], 0);
+    //});
 }
 
-function searchInJson(jsonInput, attendu, currentPath, position){
+
+function searchInJson(jsonInput, attendu, currentPath){
     /*
         depth search in the json
             jsonInput: dict -> the dict that hold the card
             attendu: str -> the expected value for the name
-            currentPath: list -> hold the current path in the json file of the card
-            position: int -> hold the current position in the array
+            currentPath: list -> hold the current path in the json file of the card, ex : ["secteur", 0, 0, 0, 0, 3]; between every number is expected a "sub" for the real path
     */
     let cardIdentity = jsonInput['card-identity']; //get the name value from the array
     let cardName = jsonInput['name']; //get the card name
+
+    let position = 
+
+    /*___ Test some valuse ___*/
+    console.log(cardName);
+    console.log(cardIdentity);
+    console.log("---------------------------------------")
+    console.log(jsonInput);
+    console.log(attendu);
+    console.log(currentPath);
+    console.log(position);
+    console.log("_____________________________");
+    console.log(jsonInput['sub'][position]);
+    console.log("_____________________________")
+    console.log("NEXT VALUE \n \n \n")
+    
+    
+
     //check if the card has a sub categorie, but checking it s card identity
     if (cardIdentity === "vide lower"){
         //tell if the card is the right one
         if (cardName === attendu){
-            return [result, jsonInput['card-identity'], currentPath, jsonInput['description']]; //return all the element to make the card
+            console.log("hello");
+            return [attendu, jsonInput['card-identity'], currentPath, jsonInput['description']]; //return all the element to make the card
         }
         //check if the next value is in the array
-        else if (position == jsonInput) {
-            None;
+        else if (position == jsonInput.length()) {
+            currentPath.pop(); //remove the last element from the path 
+            currentPath[currentPath.length() - 2] += 1; // add one to the previous 
+            searchInJson(jsonInput, attendu, currentPath, position);
+        }
+        else if (position === 0){
+            currentPath.push(position);
         }
         else{
-            searchInJson(jsonInput, attendu, currentPath, position + 1);
+            currentPath[currentPath.length() - 1] = position; //edit the position in the path
+            searchInJson(jsonInput, attendu, currentPath, position + 1); //search the next value in 
         }
     }
-    
-    //check if we have found the card by checking if the name is the same as what we want
-    //if (result === attendu) {
-    //    //only the card with "vide lower" have a description parameter
-    //    if (jsonInput['card-identity'] === "vide lower") {
-    //        
-    //    } else {
-    //        return [result, jsonInput['card-identity'], currentPath]; //same as the line just upper
-    //    }
-    //} else if (jsonInput['card-identity'] === "vide lower"){
-    //    currentPath.push(jsonInput['name']);
-    //    searchInJson(jsonInput['sub'], attendu, currentPath);
-    //}
-    return result;
+
+    //do the cards who have a sub categorie in them
+    else{
+        if (cardName === attendu){
+            console.log("hello");
+            return [attendu, jsonInput['card-identity'], currentPath]; //return all the element to make the card
+        } else if (0 === 0) {
+            console.log("hello world!")
+        }
+    }
 }
 
 const jsonFile = loadJsonFile();
