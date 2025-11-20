@@ -46,7 +46,6 @@ artcart {
 
 .cart {
     /* Styles de la carte elle-même */
-    display: flex;
     width: 300px; /* Largeur fixe de la carte */
     padding: 20px;
     background-color: #ffffff; /* Fond blanc de la carte */
@@ -93,5 +92,7 @@ artcart {
     display: ;
 }
 .plus{
+    display: flex;
+    justify-items: flex-dir;
     width: 30px;
 }
