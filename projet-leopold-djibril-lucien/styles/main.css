@@ -33,15 +33,14 @@ label{
     background-color: #9c4d1c;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-artcart {
+.artcart {
     /* Centrer la carte sur la page (pour l'exemple) */
     display: flex;
+    width: 30%;
+    margin: 10%;
+    align-items: flex-start;
     justify-content: center;
-    align-items: center;
-    min-height: 100vh; /* Hauteur minimale de la vue */
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9; /* Arrière-plan léger */
+   align-content: flex-start;
 }
 
 .cart {
@@ -87,12 +86,19 @@ artcart {
     line-height: 1.5;
 }
 
-/* Optionnel : cacher le picto inutile pour cet exemple */
-.picto {
-    display: ;
-}
+
 .plus{
     display: flex;
     justify-items: flex-dir;
     width: 30px;
+}
+.all-cards-1{
+    display: flex;
+    justify-content: space-between ;
+
+}
+.cards-section1{
+    display: flex;
+    width: 30%;
+    margin: 10%;
 }
