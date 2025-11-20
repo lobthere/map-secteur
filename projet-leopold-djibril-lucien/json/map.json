@@ -847,11 +847,11 @@
                     }]
                 },{
                     "name": "SQLite",
-                    "card-identity":"vide bold",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "DB2",
-                    "card-identity":"vide bold",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "Oracle",
@@ -871,11 +871,11 @@
                     }]
                 },{
                     "name": "Firebird",
-                    "card-identity":"vide bold",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "Azure database (cloud)",
-                    "card-identity":"vide bold",
+                    "card-identity":"vide lower",
                     "description":"template"
                 },{
                     "name": "SQL serveur (Microsoft)",
@@ -1655,11 +1655,11 @@
                     },{
                         "name": "VPN",
                         "card-identity":"vide bold",
-                        "sub":{
+                        "sub":[{
                             "name": "Open VPN",
                             "card-identity": "vide lower",
                             "description": "template"
-                        }
+                        }]
                     }]
                 }]
             }]
@@ -1727,11 +1727,11 @@
                     "sub": [{
                         "name": "Kanban",
                         "card-identity": "vide bold",
-                        "sub": {
+                        "sub": [{
                             "name": "Scrumban",
                             "card-identity": "vide lower",
                             "description":"template"
-                        }
+                        }]
                     },{
                         "name": "Scrum",
                         "card-identity":"vide bold",
@@ -1869,13 +1869,13 @@
             },{
                 "name": "Progiciels d'informatiques",
                 "card-identity": "plein lower",
-                "sub": {
+                "sub":[ {
                     "name": "décisionnels",
                     "card-identity":"plein lower",
-                    "sub":{
+                    "sub":[{
                         "name": "(datawarehouse) /",
                         "card-identity":"plein lower",
-                        "sub": {
+                        "sub": [{
                             "name": "BI business Intelligence",
                             "card-identity": "plein lower",
                             "sub": [{
@@ -2023,9 +2023,9 @@
                                     "description":"template"
                                 }]
                             }]
-                        }
-                    }
-                }
+                        }]
+                    }]
+                }]
             },{
                 "name": "BI",
                 "card-identity":"plein lower",
@@ -2239,11 +2239,11 @@
                     },{
                         "name": "VPN",
                         "card-identity": "vide bold",
-                        "sub": {
+                        "sub": [{
                             "name": "Open VPN",
                             "card-identity": "vide lower",
                             "description":"template"
-                        }
+                        }]
                     }]
                 }]
             },{
