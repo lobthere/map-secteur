@@ -46,7 +46,6 @@ async function loadJsonFile(textToSearch, subCard) {
     const data = await response.json();
 
     toR = []; // 0 -> name; 1 -> card-identity; 2 -> parents; 3 -> Description;
-
     data['secteur'].forEach(element => {
         searchInJson(element, textToSearch.toLowerCase());
     });
@@ -65,10 +64,15 @@ function searchInJson(jsonInput, attendu, previous){
             jsonInput: dict -> the dict that hold the card
             attendu: str -> the expected value for the name
     */
-    if (jsonInput['card-identity'] !== 'vide lower'){ //if card not the last row
+    if (jsonInput['card-identity'] !== 'vide-lower'){ //if card not the last row
         text = jsonInput['name'].toLowerCase(); //put text in lowercase
         if (text.includes(attendu)){ //check if the attendue value is in the name 
-            toR.push([jsonInput['name'], jsonInput['card-identity'], previous, 'pas de description pour l instant']) //add it to the toR list
+            try {
+                toR.push([jsonInput['name'], jsonInput['card-identity'], previous, jsonInput['description']]) //add it to the toR list
+            }
+            catch{
+                toR.push([jsonInput['name'], jsonInput['card-identity'], previous, 'pas de description pour l instant']) //add it to the toR list
+            }
         }
         jsonInput['sub'].forEach(element => { //go into each list element
             searchInJson(element, attendu, jsonInput['name']); //search the lower element
