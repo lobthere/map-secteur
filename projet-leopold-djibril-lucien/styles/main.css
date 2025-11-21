@@ -96,3 +96,76 @@ artcart {
     justify-items: flex-dir;
     width: 30px;
 }
+
+
+.plein-bold {
+    /* Styles de la carte elle-même */
+    width: 300px; /* Largeur fixe de la carte */
+    padding: 20px;
+    background-color: #ffffff; /* Fond blanc de la carte */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 14px 18px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    border: 1px solid #ddd; /* Bordure légère */
+    text-align: left; /* Aligner le contenu à gauche */
+    cursor : pointer ;
+    font-size: 20px;
+    transition: background-color:0.3s ease;
+}
+.plein-bold:hover{
+    background-color: #EA894B;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.plein-lower {
+    /* Styles de la carte elle-même */
+    width: 300px; /* Largeur fixe de la carte */
+    padding: 20px;
+    background-color: #ffffff; /* Fond blanc de la carte */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 14px 18px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    border: 1px solid #ddd; /* Bordure légère */
+    text-align: left; /* Aligner le contenu à gauche */
+    cursor : pointer ;
+    font-size: 20px;
+    transition: background-color:0.3s ease;
+}
+.plein-lower:hover{
+    background-color: #EA894B;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.vide-bold {
+    /* Styles de la carte elle-même */
+    width: 300px; /* Largeur fixe de la carte */
+    padding: 20px;
+    background-color: #ffffff; /* Fond blanc de la carte */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 14px 18px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    border: 1px solid #ddd; /* Bordure légère */
+    text-align: left; /* Aligner le contenu à gauche */
+    cursor : pointer ;
+    font-size: 20px;
+    transition: background-color:0.3s ease;
+}
+.vide-bold:hover{
+    background-color: #EA894B;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.vide-lower {
+    /* Styles de la carte elle-même */
+    width: 300px; /* Largeur fixe de la carte */
+    padding: 20px;
+    background-color: #ffffff; /* Fond blanc de la carte */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 14px 18px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    border: 1px solid #ddd; /* Bordure légère */
+    text-align: left; /* Aligner le contenu à gauche */
+    cursor : pointer ;
+    font-size: 20px;
+    transition: background-color:0.3s ease;
+}
+.vide-lower:hover{
+    background-color: #EA894B;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
