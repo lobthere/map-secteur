@@ -164,8 +164,8 @@ artcart {
     cursor : pointer ;
     font-size: 20px;
     transition: background-color:0.3s ease;
-}ide-lower:h
-.vover{
+}
+.vide-lower:hover{
     background-color: #EA894B;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
