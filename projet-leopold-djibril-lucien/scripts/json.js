@@ -75,6 +75,10 @@ async function loadJsonFile(textToSearch, subCard) {
     const response = await fetch('projet-leopold-djibril-lucien/json/map.json');
     const data = await response.json();
 
+    console.log(data['secteur']);
+
+    treeCreator('tf-tree', data['secteur']);
+
     let toR = []; // 0 -> name; 1 -> card-identity; 2 -> parents; 3 -> Description;
     let hasAppeared = []; //if has already appeared, hold it
     data['secteur'].forEach(element => {
@@ -85,8 +89,6 @@ async function loadJsonFile(textToSearch, subCard) {
     toR.forEach(element => {
         cardCreator(element[0], subCard, element[3], element[1]);
     });
-
-    treeCreator('tf-tree', data['secteur']['sub']);
     
     return toR
 }
