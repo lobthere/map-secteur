@@ -66,6 +66,8 @@ function cardRemover(name){
     currentDiv.remove(); //remove it and all it s children
 }
 
+let toR = []; // 0 -> name; 1 -> card-identity; 2 -> parents; 3 -> Description;
+let hasAppeared = []; //if has already appeared, hold it
 
 async function loadJsonFile(textToSearch, subCard) {
     /*
@@ -77,13 +79,15 @@ async function loadJsonFile(textToSearch, subCard) {
 
     console.log(data['secteur']);
 
-    treeCreator('tf-tree', data['secteur']);
-
-    let toR = []; // 0 -> name; 1 -> card-identity; 2 -> parents; 3 -> Description;
-    let hasAppeared = []; //if has already appeared, hold it
+    //treeCreator('tf-tree', data['secteur']);
+    toR = [];
+    hasAppeared = [];
+    
     data['secteur'].forEach(element => {
         searchInJson(element, textToSearch.toLowerCase());
     });
+    console.log(hasAppeared);
+    console.log(toR);
     /*
     const temp = document.getElementById(subCard);
     temp.innerHTML = '';
@@ -93,6 +97,15 @@ async function loadJsonFile(textToSearch, subCard) {
     });
     */
     return toR
+}
+
+function includeTheText(list, attendu){
+    list.forEach(element => {
+        if (element === attendu){
+            return true;
+        }
+    });
+    return false
 }
 
 
@@ -106,7 +119,7 @@ function searchInJson(jsonInput, attendu, previous){
     if (jsonInput['card-identity'] !== 'vide-lower'){ //if card not the last row
         text = jsonInput['name'].toLowerCase(); //put text in lowercase
         if (text.includes(attendu)){ //check if the attendue value is in the name 
-            if (!(hasAppeared.includes(attendu))){
+            if (!(includeTheText(hasAppeared, attendu))){
                 try {
                     toR.push([jsonInput['name'], jsonInput['card-identity'], [previous], jsonInput['description']]); //add it to the toR list
                     hasAppeared.push(attendu);
