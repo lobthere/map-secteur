@@ -84,12 +84,14 @@ async function loadJsonFile(textToSearch, subCard) {
     data['secteur'].forEach(element => {
         searchInJson(element, textToSearch.toLowerCase());
     });
+    /*
     const temp = document.getElementById(subCard);
     temp.innerHTML = '';
+    
     toR.forEach(element => {
         cardCreator(element[0], subCard, element[3], element[1]);
     });
-    
+    */
     return toR
 }
 
