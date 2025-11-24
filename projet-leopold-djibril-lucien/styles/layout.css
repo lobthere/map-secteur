@@ -1,0 +1,14 @@
+  .tf-dashed-children {
+    height: 1em; width: 1em;
+    background-color: rgba(148, 35, 83);
+    border-color: rgba(148, 35, 83);
+    padding: 0;
+    border-radius: 25px;
+  }
+  .tf-dotted-children {
+    height: 1em; width: 1em;
+    background-color: rgba(148, 35, 83);
+    border-color: rgba(148, 35, 83);
+    padding: 0;
+    border-radius: 25px;
+  }
