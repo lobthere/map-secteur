@@ -59,8 +59,8 @@ function cardCreator(name, parent, Description, cardShape){
 
     const subElement = document.createElement('ul');
     
-    document.getElementsByClassName(parent).appendChild(newSpan); //add the children in his parent div
-    document.getElementsByClassName(parent).appendChild(subElement);
+    document.getElementsByClassName(parent)[0].appendChild(newSpan); //add the children in his parent div
+    document.getElementsByClassName(parent)[0].appendChild(subElement);
 }
 
 function cardCreatorTree(name, parent, Description, cardShape){
@@ -163,8 +163,7 @@ async function loadJsonFile(textToSearch, subCard) {
     data['secteur'].forEach(element => {
         searchInJson(element, textToSearch.toLowerCase());
     });
-    console.log(toR);
-
+    /*
     button = document.createElement('button');
     button.textContent = 'a';
     const temp = document.getElementById('artcart');
@@ -178,7 +177,7 @@ async function loadJsonFile(textToSearch, subCard) {
 
     let test = treeCreatorFromStart(toR[0]);
     console.log(test);
-    /*
+    
     const temp = document.getElementById(subCard);
     temp.innerHTML = '';
     
@@ -186,6 +185,11 @@ async function loadJsonFile(textToSearch, subCard) {
         cardCreator(element[0], subCard, element[3], element[1]);
     });
     */
+    const temp = document.getElementsByClassName('artcart')[0];
+    temp.innerHTML = '';
+    toR.forEach(element => {
+        cardCreator(element[0][0], 'artcart', element[0][3], element[0][1]);
+    });
     return toR
 }
 

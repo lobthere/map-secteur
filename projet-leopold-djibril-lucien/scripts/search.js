@@ -7,8 +7,9 @@ function validsearchbar(event){
     event.preventDefault()
     const recherche = document.querySelector("#recherche").value;
     if (recherche !== ""){
-        console.log(loadJsonFile(recherche, 'artcart'));
+        loadJsonFile(recherche, 'artcart');        
     };
+    
 }
 
 btn.addEventListener("click", validsearchbar); //on ecoute quand quelqu'un click sur le bouton
