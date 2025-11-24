@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <title>Carte des technologies</title>
     <link rel="stylesheet" href="projet-leopold-djibril-lucien/styles/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/treeflex/dist/css/treeflex.css">
 </head>
 <body>
     <header>
         <h1>Carte des technologies</h1>
     </header>
     <main>
-        <section id="tech-list">
+        <section class="tech-list">
             <a>
                 <div id="searchbar">
                     <label id="cherch" for="Recherche">Recherche</label>
@@ -18,7 +19,7 @@
                     <button id="search" value="1" accesskey="s">valider</button>
                     <br /><br />
                 </div>
-            <article id="artcart">
+            <article class="artcart">
                 <div class="cart">
                     <div class="pretitre"> 
                         <strong>frontend</strong>
@@ -49,13 +50,8 @@
                 </div>
             </article>
             </section>
-            <svg width="800" height="600" xmlns="https://www.w3.org/TR/SVG2/">
-                <g>
-                    <title>Layer 1</title>
-                    <line fill="none" stroke="#000" x1="150" y1="287" x2="548" y2="288" id="svg_1" stroke-linejoin="undefined" stroke-linecap="undefined"/>
-                </g>
-
-            </svg>
+                <div class="tf-tree">
+                </div>
         </main>
         <script src="projet-leopold-djibril-lucien/scripts/search.js"></script>
         <script src="projet-leopold-djibril-lucien/scripts/json.js"></script>

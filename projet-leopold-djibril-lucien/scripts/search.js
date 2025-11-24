@@ -8,13 +8,15 @@ function validsearchbar(event){
     event.preventDefault()
     const recherche = document.querySelector("#recherche").value;
     if (recherche !== ""){
+        loadJsonFile(recherche, 'artcart');        
     };
+    
 }
 
 function search(){
     const searchbar = document.querySelector("#recherche");
     searchbar.addEventListener("keyup", function (evt) {
-        something(this.value)});
+        loadJsonFile(recherche, 'artcart'); 
 }
 
 btn.addEventListener("click", validsearchbar); //on ecoute quand quelqu'un click sur le bouton
