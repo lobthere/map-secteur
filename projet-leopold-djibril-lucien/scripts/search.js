@@ -1,4 +1,3 @@
-const file = "projet-leopold-djibril-lucien/json/map.json" //the file path
 const form = document.querySelector("#cherch").value;
 const btn = document.querySelector("#search");
 const carte = document.querySelector(".cart");
@@ -16,6 +15,6 @@ function search(){
     searchbar.addEventListener("keyup", function (evt) {
         something(this.value)});    
 }
-
+search();
 btn.addEventListener("click", validsearchbar); //on ecoute quand quelqu'un click sur le bouton
 searchbar.addEventListener("keyup",validsearchbar);
