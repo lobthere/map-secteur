@@ -1,20 +1,39 @@
+const file = "projet-leopold-djibril-lucien/json/map.json" //the file path
 const form = document.querySelector("#cherch").value;
 const btn = document.querySelector("#search");
 const carte = document.querySelector(".cart");
+const read = document.querySelector("#recherche")
 
-function validsearchbar(event){ //create function that valid the searchbar text typed in
-    event.preventDefault() //prevent the default event so it doesn't reset
+function validsearchbar(event){
+    event.preventDefault()
     const recherche = document.querySelector("#recherche").value;
     if (recherche !== ""){
-        console.log(loadJsonFile(recherche, 'artcart')); //si la recherche correspond a du contenue l'afficher.
+        loadJsonFile(recherche, 'artcart');
     };
+    
 }
 
 function search(){
     const searchbar = document.querySelector("#recherche");
     searchbar.addEventListener("keyup", function (evt) {
-        something(this.value)});    
+        something(this.value); 
+})};
+
+
+
+async function main(){
+    const response = await fetch('projet-leopold-djibril-lucien/json/map.json');
+    const data = await response.json();
+
+    cardCreator(data['Entreprise'], 'init', data['annee'], 'plein-bold', true);
+
+    data['secteur'].forEach(element => {
+        cardCreator(element['name'], 'externatic', element['description'], element['card-identity'], element);
+    });
 }
-search();
+
+main();
+
 btn.addEventListener("click", validsearchbar); //on ecoute quand quelqu'un click sur le bouton
-searchbar.addEventListener("keyup",validsearchbar);
+read.addEventListener("keyup",validsearchbar);
+
