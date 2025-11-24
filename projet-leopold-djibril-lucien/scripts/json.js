@@ -11,6 +11,7 @@ function cardCreator(name, parent, Description, cardShape, jsonInput){
             parent: str -> it s parent id
             Description: str -> the description that we will load on the card
             cardShape: str -> what format it will have
+            jsonInput: array -> the current json file tree
     */
     const initLi = document.createElement('li');
 
