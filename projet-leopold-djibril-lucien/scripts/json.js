@@ -192,4 +192,3 @@ async function loadJsonFile(textToSearch, subCard) {
     });
     return toR
 }
-
