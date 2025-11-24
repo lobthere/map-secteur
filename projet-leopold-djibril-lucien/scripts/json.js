@@ -66,49 +66,6 @@ function cardRemover(name){
     currentDiv.remove(); //remove it and all it s children
 }
 
-let toR = []; // 0 -> name; 1 -> card-identity; 2 -> parents; 3 -> Description;
-let hasAppeared = []; //if has already appeared, hold it
-
-async function loadJsonFile(textToSearch, subCard) {
-    /*
-        load the json file and 
-    */
-
-    const response = await fetch('projet-leopold-djibril-lucien/json/map.json');
-    const data = await response.json();
-
-    console.log(data['secteur']);
-
-    //treeCreator('tf-tree', data['secteur']);
-    toR = [];
-    hasAppeared = [];
-    
-    data['secteur'].forEach(element => {
-        searchInJson(element, textToSearch.toLowerCase());
-    });
-    console.log(hasAppeared);
-    console.log(toR);
-    /*
-    const temp = document.getElementById(subCard);
-    temp.innerHTML = '';
-    
-    toR.forEach(element => {
-        cardCreator(element[0], subCard, element[3], element[1]);
-    });
-    */
-    return toR
-}
-
-function includeTheText(list, attendu){
-    list.forEach(element => {
-        if (element === attendu){
-            return true;
-        }
-    });
-    return false
-}
-
-
 function searchInJson(jsonInput, attendu, previous){
     /*
         depth search in the json
@@ -119,18 +76,12 @@ function searchInJson(jsonInput, attendu, previous){
     if (jsonInput['card-identity'] !== 'vide-lower'){ //if card not the last row
         text = jsonInput['name'].toLowerCase(); //put text in lowercase
         if (text.includes(attendu)){ //check if the attendue value is in the name 
-            if (!(includeTheText(hasAppeared, attendu))){
-                try {
-                    toR.push([jsonInput['name'], jsonInput['card-identity'], [previous], jsonInput['description']]); //add it to the toR list
-                    hasAppeared.push(attendu);
-                }
-                catch{
-                    toR.push([jsonInput['name'], jsonInput['card-identity'], [previous], 'pas de description pour l instant']); //add it to the toR list
-                    hasAppeared.push(attendu);
-                }
-            }else{
-                toR[hasAppeared.indexOf(attendu)][2].push(previous);
-            };
+            try {
+                toR.push([jsonInput['name'], jsonInput['card-identity'], [previous], jsonInput['description']]); //add it to the toR list
+            }
+            catch{
+                toR.push([jsonInput['name'], jsonInput['card-identity'], [previous], 'pas de description pour l instant']); //add it to the toR list
+            }
         }
         jsonInput['sub'].forEach(element => { //go into each list element
             searchInJson(element, attendu, jsonInput['name']); //search the lower element
@@ -139,12 +90,7 @@ function searchInJson(jsonInput, attendu, previous){
     else {
         text = jsonInput['name'].toLowerCase(); //put the text in lowercase
         if (text.includes(attendu)){ //check if the attendue value is in the name 
-            if (!(hasAppeared.includes(attendu))){
-                toR.push([jsonInput['name'], jsonInput['card-identity'],[previous], jsonInput['description']]) //add it to the toR list
-                hasAppeared.push(attendu);
-            } else{
-                toR[hasAppeared.indexOf(attendu)][2].push(previous);
-            }
+            toR.push([jsonInput['name'], jsonInput['card-identity'],[previous], jsonInput['description']]) //add it to the toR list
         }
     }
 }
@@ -153,4 +99,56 @@ function treeCreator(parent, parentSub){
     parentSub.forEach(element => {
         cardCreatorTree(element['name'], parent, element['description'], element['card-identity']);
     });
+}
+
+function treeCreatorFromStart(jsonInput){
+    let holder = []
+    jsonInput.forEach(element => {
+        holder.push(element);
+    });
+    return holder
+}
+
+/*---------- Holding values ------------- */
+let toR = []; // 0 -> name; 1 -> card-identity; 2 -> parents; 3 -> Description;
+
+/*---------- Main function --------------*/
+async function loadJsonFile(textToSearch, subCard) {
+    /*
+        load the json file and 
+    */
+
+    const response = await fetch('projet-leopold-djibril-lucien/json/map.json');
+    const data = await response.json();
+
+    //treeCreator('tf-tree', data['secteur']);
+    toR = [];
+    
+    data['secteur'].forEach(element => {
+        searchInJson(element, textToSearch.toLowerCase());
+    });
+    console.log(toR);
+
+    button = document.createElement('button');
+    button.textContent = 'a';
+    const temp = document.getElementById('artcart');
+    temp.innerHTML = '';
+    temp.appendChild(button)
+    button.addEventListener('click', (unEvenement) => {
+        console.log('b');
+    });
+
+    
+
+    let test = treeCreatorFromStart(toR[0]);
+    console.log(test);
+    /*
+    const temp = document.getElementById(subCard);
+    temp.innerHTML = '';
+    
+    toR.forEach(element => {
+        cardCreator(element[0], subCard, element[3], element[1]);
+    });
+    */
+    return toR
 }
