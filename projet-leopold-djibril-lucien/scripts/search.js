@@ -1,24 +1,20 @@
-const file = "projet-leopold-djibril-lucien/json/map.json" //the file path
 const form = document.querySelector("#cherch").value;
 const btn = document.querySelector("#search");
 const carte = document.querySelector(".cart");
-const read = document.querySelector("#recherche")
 
-function validsearchbar(event){
-    event.preventDefault()
+function validsearchbar(event){ //create function that valid the searchbar text typed in
+    event.preventDefault() //prevent the default event so it doesn't reset
     const recherche = document.querySelector("#recherche").value;
     if (recherche !== ""){
-        loadJsonFile(recherche, 'artcart');
+        console.log(loadJsonFile(recherche, 'artcart')); //si la recherche correspond a du contenue l'afficher.
     };
-    
 }
 
 function search(){
     const searchbar = document.querySelector("#recherche");
     searchbar.addEventListener("keyup", function (evt) {
-        something(this.value); 
-})};
-
+        something(this.value)});    
+}
+search();
 btn.addEventListener("click", validsearchbar); //on ecoute quand quelqu'un click sur le bouton
-read.addEventListener("keyup",validsearchbar);
-
+searchbar.addEventListener("keyup",validsearchbar);
