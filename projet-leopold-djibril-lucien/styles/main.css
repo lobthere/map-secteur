@@ -169,3 +169,10 @@ artcart {
     background-color: #EA894B;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+.artcart{
+    background-color: background-color: rgb(229, 229, 229);;
+}
+.artcart:hover {
+     background-color: #EA894B;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
