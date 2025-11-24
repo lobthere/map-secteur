@@ -1,61 +1,178 @@
 body{
-    background-color:rgba(238, 130, 238, 0.575)
+    background-color: rgb(229, 229, 229);
 }
-.text{
-     color: black;
-    text-wrap-style: inherit;
+h1 {
+    font-size: 50px;
+    color: #000000ee;
+    font-family: serif ;
+    text-shadow: #ffffff 0px 0px 5px, #000000 0px 0px 10px, #FFF 0px 0px 15px, #ff50a7 0px 0px 20px, #eaabca 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    color: rgb(0, 0, 0);
+    text-align: center;
 }
-.entete{
-  color: orange ;
-    display:flex;
-    justify-content: center;
-    
-}
-.avant-titre{
-    color: orange;
-}
-.class1{
-    color: orange;
-display:flex;
-    justify-content: center;
-    
-}
-.class2{
-    color: orange;
-display:flex;
+label{
+    font-size: 25px;}
+#searchbar{
+    padding: 20%;
+    display : flex;
     justify-content: center;
 }
-.class3{
-    color: orange;
-display:flex;
+#cherch{
+    padding:1%;
+}
+#search{
+    background-color: #EA894B;
+    color :white;
+    padding: 5px 20px;
+    border : none ; 
+    border-radius: 5px ;
+    cursor : pointer ;
+    font-size: 20px;
+    transition: background-color:0.3s ease;
+}
+#search:hover{
+    background-color: #9c4d1c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+artcart {
+    /* Centrer la carte sur la page (pour l'exemple) */
+    display: flex;
     justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Hauteur minimale de la vue */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Arrière-plan léger */
 }
-.class4{
-    color: orange;
-display:flex;
-    justify-content: center;
+
+.cart {
+    /* Styles de la carte elle-même */
+    width: 300px; /* Largeur fixe de la carte */
+    padding: 20px;
+    background-color: #ffffff; /* Fond blanc de la carte */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 14px 18px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    border: 1px solid #ddd; /* Bordure légère */
+    text-align: left; /* Aligner le contenu à gauche */
+    cursor : pointer ;
+    font-size: 20px;
+    transition: background-color:0.3s ease;
 }
-.class5{
-    color: orange;
-display:flex;
-    justify-content: center;
-}.text1{
-     color:black;
-    text-wrap-style: inherit;
+.cart:hover{
+    background-color: #EA894B;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-.text2{
-     color: black;
-    text-wrap-style: inherit;
+
+.pretitre strong {
+    /* Style du titre secondaire/catégorie (frontend) */
+    display: block;
+    font-size: 0.8em;
+    color: #5c6770;
+    text-transform: uppercase;
+    margin-bottom: 5px;
 }
-.text3{
-     color: black;
-    text-wrap-style: inherit;
+
+.container h2 {
+    /* Style du titre principal (definition rapide) */
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
-.text4{
-     color: black;
-    text-wrap-style: inherit;
+
+.definition {
+    /* Style du contenu/définition */
+    font-size: 1em;
+    color: #444;
+    margin-top: 0;
+    line-height: 1.5;
 }
-.text5{
-     color:black;
-    text-wrap-style: inherit;
+
+/* Optionnel : cacher le picto inutile pour cet exemple */
+.picto {
+    display: ;
+}
+.plus{
+    display: flex;
+    justify-items: flex-dir;
+    width: 30px;
+}
+
+
+.plein-bold {
+    /* Styles de la carte elle-même */
+    width: 300px; /* Largeur fixe de la carte */
+    padding: 20px;
+    background-color: #ffffff; /* Fond blanc de la carte */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 14px 18px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    border: 1px solid #ddd; /* Bordure légère */
+    text-align: left; /* Aligner le contenu à gauche */
+    cursor : pointer ;
+    font-size: 20px;
+    transition: background-color:0.3s ease;
+}
+.plein-bold:hover{
+    background-color: #EA894B;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.plein-lower {
+    /* Styles de la carte elle-même */
+    width: 300px; /* Largeur fixe de la carte */
+    padding: 20px;
+    background-color: #ffffff; /* Fond blanc de la carte */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 14px 18px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    border: 1px solid #ddd; /* Bordure légère */
+    text-align: left; /* Aligner le contenu à gauche */
+    cursor : pointer ;
+    font-size: 20px;
+    transition: background-color:0.3s ease;
+}
+.plein-lower:hover{
+    background-color: #EA894B;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.vide-bold {
+    /* Styles de la carte elle-même */
+    width: 300px; /* Largeur fixe de la carte */
+    padding: 20px;
+    background-color: #ffffff; /* Fond blanc de la carte */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 14px 18px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    border: 1px solid #ddd; /* Bordure légère */
+    text-align: left; /* Aligner le contenu à gauche */
+    cursor : pointer ;
+    font-size: 20px;
+    transition: background-color:0.3s ease;
+}
+.vide-bold:hover{
+    background-color: #EA894B;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.vide-lower {
+    /* Styles de la carte elle-même */
+    width: 300px; /* Largeur fixe de la carte */
+    padding: 20px;
+    background-color: #ffffff; /* Fond blanc de la carte */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 14px 18px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    border: 1px solid #ddd; /* Bordure légère */
+    text-align: left; /* Aligner le contenu à gauche */
+    cursor : pointer ;
+    font-size: 20px;
+    transition: background-color:0.3s ease;
+}
+.vide-lower:hover{
+    background-color: #EA894B;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.artcart{
+    background-color: background-color: rgb(229, 229, 229);;
+}
+.artcart:hover {
+     background-color: #EA894B;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
