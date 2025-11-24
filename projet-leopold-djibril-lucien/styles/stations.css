@@ -15,6 +15,10 @@ label{
     padding: 20%;
     display : flex;
     justify-content: center;
+    position: relative;
+  margin-top: -270px;px;   /* distance depuis le haut */
+  right: -240px; /* distance depuis la droite */
+  justify-content: flex-start;
 }
 #cherch{
     padding:1%;
@@ -175,4 +179,9 @@ artcart {
 .artcart:hover {
      background-color: #EA894B;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.arbre{
+    position: relative;
+    margin-top:-100px;;
+     right: -410px; /* distance depuis la droite */
 }
