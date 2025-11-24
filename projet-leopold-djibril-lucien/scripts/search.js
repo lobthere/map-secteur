@@ -19,6 +19,21 @@ function search(){
         something(this.value); 
 })};
 
+
+
+async function main(){
+    const response = await fetch('projet-leopold-djibril-lucien/json/map.json');
+    const data = await response.json();
+
+    cardCreator(data['Entreprise'], 'init', data['annee'], 'plein-bold', true);
+
+    data['secteur'].forEach(element => {
+        cardCreator(element['name'], 'externatic', element['description'], element['card-identity'], element);
+    });
+}
+
+main();
+
 btn.addEventListener("click", validsearchbar); //on ecoute quand quelqu'un click sur le bouton
 read.addEventListener("keyup",validsearchbar);
 
