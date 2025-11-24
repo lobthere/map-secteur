@@ -128,9 +128,7 @@
                     },{
                     "name": "C#",
                     "card-identity":"vide-bold",
-                    "description": "Le C sharp est un langage de programmation moderne créé par Microsoft en 2001, principalement utilisé avec 
-                            la plateforme .NET pour développer des applications Windows, mobiles, web et même des jeux vidéo.
-                            Le C sharp est un langage proche de Java et C++ car Sa syntaxe ressemble à celle de Java et C++."
+                    "description": "Le C sharp est un langage de programmation moderne créé par Microsoft en 2001, principalement utilisé avec la plateforme .NET pour développer des applications Windows, mobiles, web et même des jeux vidéo. Le C sharp est un langage proche de Java et C++ car Sa syntaxe ressemble à celle de Java et C++.",
                     "sub": [{
                         "name": "Blazor",
                         "description": "template",
