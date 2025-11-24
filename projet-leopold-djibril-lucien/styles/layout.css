@@ -1,14 +1,158 @@
-  .tf-dashed-children {
-    height: 1em; width: 1em;
-    background-color: rgba(148, 35, 83);
-    border-color: rgba(148, 35, 83);
-    padding: 0;
-    border-radius: 25px;
-  }
-  .tf-dotted-children {
-    height: 1em; width: 1em;
-    background-color: rgba(148, 35, 83);
-    border-color: rgba(148, 35, 83);
-    padding: 0;
-    border-radius: 25px;
-  }
+      /* --- 1. STRUCTURE GÉNÉRALE --- */
+        body {
+            background-color: rgb(229, 229, 229);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            /* Plus besoin de !important ici car main.css est supprimé */
+            display: block; 
+            text-align: center;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 40px;
+            font-family: serif;
+            text-shadow: #ffffff 0px 0px 5px, #000000 0px 0px 10px, #FFF 0px 0px 15px, #ff50a7 0px 0px 20px;
+            margin: 0 auto 40px auto; /* Marge en bas pour espacer du reste */
+        }
+
+        /* --- 2. BARRE DE RECHERCHE --- */
+        #searchbar {
+            margin-bottom: 50px;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        #recherche {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            width: 250px;
+        }
+
+        #search {
+            background-color: #EA894B;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        #search:hover {
+            background-color: #9c4d1c;
+        }
+
+        /* --- 3. CONTENEUR DE L'ARBRE --- */
+        .arbre {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            padding-bottom: 50px; /* Espace en bas de page */
+        }
+
+        /* --- 4. STYLE DES CARTES --- */
+        /* Container technique pour l'arbre (invisible) */
+        .artcart {
+            display: block;
+            background-color: transparent;
+            padding: 0;
+            margin: 0;
+            width: fit-content;
+        }
+
+        /* La vraie carte visible */
+        .cart1 {
+            width: 200px;
+            padding: 15px;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+            cursor: pointer;
+            text-align: left;
+            
+            /* Couleurs et transitions */
+            background-color: #8A2BE2; /* Violet par défaut */
+            color: white;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Effet au survol */
+        .cart1:hover {
+            background-color: #EA894B; /* Orange au survol */
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+            z-index: 100; /* Passe devant tout le reste */
+        }
+
+        /* Typographie interne de la carte */
+        .cart1 .pretitre strong {
+            text-transform: uppercase;
+            font-size: 0.8em;
+            color: #ddd; 
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .cart1 .container h2 {
+            font-size: 1.1em;
+            margin: 5px 0;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .cart1 .definition {
+            font-size: 0.9em;
+            color: #f0f0f0;
+            margin: 8px 0;
+            font-weight: normal;
+            line-height: 1.4;
+        }
+
+        /* Picto (+) */
+        .picto {
+            display: block;
+            margin-top: 10px;
+            text-align: right;
+        }
+
+        .picto img {
+            background-color: white; 
+            border-radius: 50%;
+            padding: 4px;
+            width: 20px;
+            height: 20px;
+            transition: transform 0.3s ease;
+        }
+        
+        .cart1:hover .picto img {
+            transform: rotate(90deg); /* Petite animation sympa au survol */
+        }
+
+        /* --- 5. STYLE DES NOEUDS TREEFLEX --- */
+        /* On retire le style par défaut des boites Treeflex */
+        .tf-nc {
+            border: none !important; 
+            padding: 0 !important;
+            background: transparent !important;
+        }
+
+        /* On remet un style simple JUSTE pour les chiffres (2, 3, 4...) qui n'ont pas de carte */
+        .tf-nc:not(:has(.cart1)) {
+            border: 1px solid #555 !important;
+            padding: 10px 15px !important;
+            background-color: white !important;
+            font-weight: bold;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
