@@ -188,7 +188,8 @@ async function loadJsonFile(textToSearch, subCard) {
     const temp = document.getElementsByClassName('artcart')[0];
     temp.innerHTML = '';
     toR.forEach(element => {
-        cardCreator(element[0][0], 'artcart', element[0][3], element[0][1]);
+        console.log(element[0]);
+        cardCreator(element[0], 'artcart', element[3], element[1]);
     });
     return toR
 }
