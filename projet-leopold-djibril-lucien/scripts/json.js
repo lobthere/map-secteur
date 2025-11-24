@@ -10,21 +10,57 @@ function cardCreator(name, parent, Description, cardShape){
             Description: str -> the description that we will load on the card
             cardShape: str -> what format it will have
     */
-    const newDiv = document.createElement("div"); //create the div card
+    const newSpan = document.createElement("span"); //create the span card
+    newSpan.className = 'tf-nc'; //use the 'tf-nc' to use the proper css to make the tree
     
-    newDiv.className = cardShape; //use the cardShape to use the proper css
+    const mainDiv = document.createElement("div"); // create the main div balise
+    mainDiv.className = cardShape;
+
+    const pretitreDiv = document.createElement("div");
+    pretitreDiv.className = 'pretitre';
+
+    const titreStrong = document.createElement('strong');
+    titreStrong.textContent = name;
+    pretitreDiv.appendChild(titreStrong);
+
+    const containerDiv = document.createElement('div');
+    containerDiv.className = 'container';
+
+    const defRapideH2 = document.createElement('h2');
+    defRapideH2.textContent = 'definition rapide';
+    containerDiv.appendChild(defRapideH2);
+
+    const defDiv = document.createElement('div');
+    defDiv.className = 'definition';
+
+    const h3Def = document.createElement('h3');
+    h3Def.textContent = Description;
+    defDiv.appendChild(h3Def);
+
+    const spanInner = document.createElement('span');
+    spanInner.className = 'picto';
+
+    const subDiv = document.createElement('div');
+    subDiv.className = 'sub';
+
+    const imagePlus = document.createElement('img');
+    imagePlus.src = 'projet-leopold-djibril-lucien/styles/src/16uMC.png';
+
+    subDiv.appendChild(imagePlus);
+    spanInner.appendChild(subDiv);
+
+    mainDiv.appendChild(pretitreDiv);
+    mainDiv.appendChild(containerDiv);
+    mainDiv.appendChild(defDiv);
+    mainDiv.appendChild(spanInner);
     
-    const title = document.createElement("h2"); // create the title balise
-    const titleText = document.createTextNode(name); //create the text balise
-    title.appendChild(titleText); //add the text to the balise
-    newDiv.appendChild(title);
+    
+    newSpan.appendChild(mainDiv);
 
-    const description = document.createElement("p"); // create the title balise
-    const DescriptionText = document.createTextNode(Description); //create the text balise
-    description.appendChild(DescriptionText); //add the text to the balise
-    newDiv.appendChild(description);
-
-    document.getElementById(parent).appendChild(newDiv); //add the children in his parent div
+    const subElement = document.createElement('ul');
+    
+    document.getElementsByClassName(parent).appendChild(newSpan); //add the children in his parent div
+    document.getElementsByClassName(parent).appendChild(subElement);
 }
 
 function cardCreatorTree(name, parent, Description, cardShape){
@@ -152,3 +188,4 @@ async function loadJsonFile(textToSearch, subCard) {
     */
     return toR
 }
+
