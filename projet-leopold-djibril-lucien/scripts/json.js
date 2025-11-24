@@ -22,6 +22,7 @@ function cardCreator(name, parent, Description, cardShape, jsonInput){
     mainDiv.className = cardShape;
     if (!(cardShape === 'vide-lower')){
         function toDoWhenNotVideLower(){
+            specialRemover(name, jsonInput, parent, Description, cardShape);
             next(jsonInput, name);
         }
         mainDiv.addEventListener("click",toDoWhenNotVideLower);
@@ -84,7 +85,8 @@ function cardCreatorVideLower(name, parent, Description, cardShape, jsonInput){
     mainDiv.className = cardShape;
     if (!(cardShape === 'vide-lower')){
         function toDoWhenNotVideLower(){
-            next(jsonInput, name, );
+            specialRemover(name, jsonInput, parent, Description, cardShape);
+            next(jsonInput, name);
         }
         mainDiv.addEventListener("click",toDoWhenNotVideLower);
     }
@@ -186,16 +188,19 @@ async function loadJsonFile(textToSearch, subCard) {
     return toR
 }
 
-function next(jsonInputFile, parentName, previousJsonInputFile, position){
-    console.log(previousJsonInputFile);
-    cardCreator(previousJsonInputFile[position]['name'], previousJsonInputFile['name'], previousJsonInputFile[position]['description'], previousJsonInputFile[position]['card-identity'], jsonInputFile);
-    let i = 0;
+function next(jsonInputFile, parentName){
+    //remove previous card
     jsonInputFile['sub'].forEach(element => {
         if (element['card-identity'] === 'vide-lower'){
-            cardCreatorVideLower(element['name'], parentName, element['description'], element['card-identity'], element, jsonInputFile, i);
+            cardCreatorVideLower(element['name'], parentName, element['description'], element['card-identity'], element);
         }else{
-            cardCreator(element['name'], parentName, element['description'], element['card-identity'], element, jsonInputFile, i);
+            cardCreator(element['name'], parentName, element['description'], element['card-identity'], element);
         }
-        i += 1;
     })
 }
+
+function specialRemover(name, jsonInput, parent, Description, cardShape,){
+    previousName = jsonInput['name'];
+    toRemove = document.getElementsByClassName(previousName)[0];
+    toRemove.innerHTML = '';
+    }
