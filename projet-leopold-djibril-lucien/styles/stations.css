@@ -155,7 +155,6 @@ artcart {
     background-color: #EA894B;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
 .vide-lower {
     /* Styles de la carte elle-même */
     width: 300px; /* Largeur fixe de la carte */
@@ -185,3 +184,5 @@ artcart {
     margin-top:-100px;;
      right: -410px; /* distance depuis la droite */
 }
+
+   
