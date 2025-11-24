@@ -180,10 +180,10 @@ async function loadJsonFile(textToSearch, subCard) {
         searchInJson(element, textToSearch.toLowerCase());
     });
 
-    const temp = document.getElementsByClassName('artcart')[0];
+    const temp = document.getElementsByClassName(subCard)[0];
     temp.innerHTML = '';
     toR.forEach(element => {
-        cardCreator(element[0], 'artcart', element[3], element[1]);
+        cardCreator(element[0], subCard, element[3], element[1]);
     });
     return toR
 }

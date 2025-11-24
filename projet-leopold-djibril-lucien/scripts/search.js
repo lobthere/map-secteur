@@ -8,7 +8,7 @@ function validsearchbar(event){
     event.preventDefault()
     const recherche = document.querySelector("#recherche").value;
     if (recherche !== ""){
-        loadJsonFile(recherche, 'artcart');
+        loadJsonFile(recherche, 'searchHolderJs');
     };
 }
 
