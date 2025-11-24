@@ -17,7 +17,7 @@ function search(){
     const searchbar = document.querySelector("#recherche");
     searchbar.addEventListener("keyup", function (evt) {
         loadJsonFile(recherche, 'artcart'); 
-}
+})};
 
 btn.addEventListener("click", validsearchbar); //on ecoute quand quelqu'un click sur le bouton
 read.addEventListener("keyup",validsearchbar)
