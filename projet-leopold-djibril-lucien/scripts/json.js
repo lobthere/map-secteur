@@ -49,11 +49,13 @@ async function loadJsonFile(textToSearch, subCard) {
     data['secteur'].forEach(element => {
         searchInJson(element, textToSearch.toLowerCase());
     });
-    temp = document.getElementById(subCard);""
+    /*
+   temp = document.getElementById(subCard);""
     temp.innerHTML = '';
     toR.forEach(element => {
         cardCreator(element[0], subCard, element[3], element[1]);
     });
+    */
     return toR
 }
 
@@ -84,4 +86,5 @@ function searchInJson(jsonInput, attendu, previous){
             toR.push([jsonInput['name'], jsonInput['card-identity'],previous, jsonInput['description']]) //add it to the toR list
         }
     }
+    
 }
