@@ -2,11 +2,11 @@ const form = document.querySelector("#cherch").value;
 const btn = document.querySelector("#search");
 const carte = document.querySelector(".cart");
 
-function validsearchbar(event){
-    event.preventDefault()
+function validsearchbar(event){ //create function that valid the searchbar text typed in
+    event.preventDefault() //prevent the default event so it doesn't reset
     const recherche = document.querySelector("#recherche").value;
     if (recherche !== ""){
-        console.log(loadJsonFile(recherche, 'artcart'));
+        console.log(loadJsonFile(recherche, 'artcart')); //si la recherche correspond a du contenue l'afficher.
     };
 }
 
