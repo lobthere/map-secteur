@@ -7,6 +7,10 @@ const read = document.querySelector("#recherche")
 function validsearchbar(event){
     event.preventDefault()
     const recherche = document.querySelector("#recherche").value;
+    if (recherche === ''){
+        holder = document.getElementsByClassName('searchHolderJs')[0];
+        holder.innerHTML = '';
+    }
     if (recherche !== ""){
         loadJsonFile(recherche, 'searchHolderJs');
     };
@@ -23,10 +27,10 @@ async function main(){
     const response = await fetch('projet-leopold-djibril-lucien/json/map.json');
     const data = await response.json();
 
-    cardCreator(data['Entreprise'], 'init', data['annee'], 'plein-bold', data['secteur']);
+    cardCreatorInit(data['Entreprise'], 'init', data['annee'], 'plein bold', data['secteur'], data, 'init');
 
     data['secteur'].forEach(element => {
-        cardCreator(element['name'], 'externatic', element['description'], element['card-identity'], element, data['secteur']);
+        cardCreator(element['name'], 'externatic', element['description'], element['card-identity'], element, data['secteur'], data['Entreprise']);
     });
 }
 main();
