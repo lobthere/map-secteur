@@ -2,7 +2,7 @@
 make the tree
 */
 
-function cardCreatorForSearchBar(name, parent, Description, cardShape, jsonInput){
+function cardCreatorForSearchBar(name, parent, Description, cardShape){
     /*
         Create the card for the tree
             name: str -> the name of the card
@@ -11,10 +11,10 @@ function cardCreatorForSearchBar(name, parent, Description, cardShape, jsonInput
             cardShape: str -> what format it will have
             jsonInput: array -> the current json file tree
     */
-    const initLi = document.createElement('li');
+    const initDiv = document.createElement('div');
 
     const newSpan = document.createElement("span"); //create the span card
-    newSpan.className = 'artcart'; //use the 'artcart' to use the proper css to make the tree
+    newSpan.className = 'cartSearch'; //use the 'artcart' to use the proper css to make the tree
     
     const mainDiv = document.createElement("div"); // create the main div balise
     mainDiv.className = cardShape;
@@ -47,18 +47,15 @@ function cardCreatorForSearchBar(name, parent, Description, cardShape, jsonInput
     newSpan.appendChild(mainDiv);
 
     
-    initLi.appendChild(newSpan); //add the children in his parent div
+    initDiv.appendChild(newSpan); //add the children in his parent div
 
-    const subElement = document.createElement('ul');
-    subElement.className = name;
-    initLi.appendChild(subElement);
 
 
     const main = document.getElementsByClassName(parent)[0];
-    main.appendChild(initLi);
+    main.appendChild(initDiv);
 }
 
-function cardCreator(name, parent, Description, cardShape, jsonInput){
+function cardCreator(name, parent, Description, cardShape, jsonInput, previous){
     /*
         Create the card for the tree
             name: str -> the name of the card
@@ -76,7 +73,8 @@ function cardCreator(name, parent, Description, cardShape, jsonInput){
     mainDiv.className = cardShape;
     if (!(cardShape === 'vide-lower')){
         function toDoWhenNotVideLower(){
-            specialRemover(name, jsonInput, parent, Description, cardShape);
+            console.log(previous);
+            specialRemover(name, previous);
             next(jsonInput, name);
         }
         mainDiv.addEventListener("click",toDoWhenNotVideLower);
@@ -121,7 +119,7 @@ function cardCreator(name, parent, Description, cardShape, jsonInput){
     main.appendChild(initLi);
 }
 
-function cardCreatorVideLower(name, parent, Description, cardShape, jsonInput){
+function cardCreatorVideLower(name, parent, Description, cardShape, jsonInput, previous){
     /*
         Create the card for the tree
             name: str -> the name of the card
@@ -139,7 +137,7 @@ function cardCreatorVideLower(name, parent, Description, cardShape, jsonInput){
     mainDiv.className = cardShape;
     if (!(cardShape === 'vide-lower')){
         function toDoWhenNotVideLower(){
-            specialRemover(name, jsonInput, parent, Description, cardShape);
+            specialRemover(name, previous);
             next(jsonInput, name);
         }
         mainDiv.addEventListener("click",toDoWhenNotVideLower);
@@ -246,15 +244,16 @@ function next(jsonInputFile, parentName){
     //remove previous card
     jsonInputFile['sub'].forEach(element => {
         if (element['card-identity'] === 'vide-lower'){
-            cardCreatorVideLower(element['name'], parentName, element['description'], element['card-identity'], element);
+            cardCreatorVideLower(element['name'], parentName, element['description'], element['card-identity'], element, jsonInputFile);
         }else{
-            cardCreator(element['name'], parentName, element['description'], element['card-identity'], element);
+            cardCreator(element['name'], parentName, element['description'], element['card-identity'], element, jsonInputFile);
         }
     })
 }
 
-function specialRemover(name, jsonInput, parent, Description, cardShape,){
-    previousName = jsonInput['name'];
+function specialRemover(name, previous){
+    console.log(previous);
+    previousName = previous['name'];
     toRemove = document.getElementsByClassName(previousName)[0];
     toRemove.innerHTML = '';
     }

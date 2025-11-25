@@ -23,10 +23,10 @@ async function main(){
     const response = await fetch('projet-leopold-djibril-lucien/json/map.json');
     const data = await response.json();
 
-    cardCreator(data['Entreprise'], 'init', data['annee'], 'plein-bold', true);
+    cardCreator(data['Entreprise'], 'init', data['annee'], 'plein-bold', data['secteur']);
 
     data['secteur'].forEach(element => {
-        cardCreator(element['name'], 'externatic', element['description'], element['card-identity'], element);
+        cardCreator(element['name'], 'externatic', element['description'], element['card-identity'], element, data['secteur']);
     });
 }
 main();
