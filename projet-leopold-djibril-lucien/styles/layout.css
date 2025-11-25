@@ -301,4 +301,5 @@ ul{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-shadow: #ffffff 0px 0px 5px, #000000 0px 0px 10px, #FFF 0px 0px 15px, #ff50a7 0px 0px 20px;
 }
