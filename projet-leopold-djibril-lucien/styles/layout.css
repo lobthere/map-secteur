@@ -180,13 +180,14 @@ h1 {
     margin: 1% ;
     overflow: hidden;
     text-overflow: ellipsis;
+    transition: 500ms;
 }
 
 .searchHolderJs{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
@@ -232,8 +233,8 @@ h1 {
     /* 2. BARRE DE RECHERCHE en colonne */
     #searchbar {
         flex-direction: column; /* Empile les éléments verticalement */
-        gap: 15px;
         width: 90%;
+        
     }
 
     #recherche {
@@ -254,9 +255,6 @@ h1 {
         /* Important : Aligne à gauche sur mobile pour éviter que 
            le début de l'arbre soit coupé par le centrage */
         justify-content: flex-start; 
-        
-        padding-left: 20px; /* Petit espace au début */
-        padding-right: 20px;
     }
 
     /* 4. RÉDUCTION DES CARTES */
@@ -294,7 +292,6 @@ ul{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    align-self: flex-start;
 }
 
 .arbreTitle {
@@ -302,4 +299,22 @@ ul{
     align-items: center;
     justify-content: center;
     text-shadow: #ffffff 0px 0px 5px, #000000 0px 0px 10px, #FFF 0px 0px 15px, #ff50a7 0px 0px 20px;
+}
+
+.divSearch:hover {
+    height: 100%;
+    width: 100%;
+}
+
+.init {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+}
+
+li {
+    align-self: flex-start;
 }
