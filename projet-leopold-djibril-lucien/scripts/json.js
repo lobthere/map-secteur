@@ -20,9 +20,6 @@ function cardCreatorInit(name, parent, Description, cardShape, jsonInput, previo
     mainDiv.className = cardShape;
     if (!(cardShape === 'vide-lower')){
         function toDoWhenNotVideLower(){
-            console.log(name);
-            console.log(previousName);
-            console.log(jsonInput);
             specialRemover('init');
             cardCreatorInit(name, parent, Description, cardShape, jsonInput, previous, name);
             nextSpecial(jsonInput, name);
