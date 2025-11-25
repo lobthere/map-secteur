@@ -2,6 +2,73 @@
 make the tree
 */
 
+function cardCreatorInit(name, parent, Description, cardShape, jsonInput, previous, previousName){
+    /*
+        Create the card for the tree
+            name: str -> the name of the card
+            parent: str -> it s parent id
+            Description: str -> the description that we will load on the card
+            cardShape: str -> what format it will have
+            jsonInput: array -> the current json file tree
+    */
+    const initLi = document.createElement('li');
+
+    const newSpan = document.createElement("span"); //create the span card
+    newSpan.className = 'tf-nc'; //use the 'tf-nc' to use the proper css to make the tree
+    
+    const mainDiv = document.createElement("div"); // create the main div balise
+    mainDiv.className = cardShape;
+    if (!(cardShape === 'vide-lower')){
+        function toDoWhenNotVideLower(){
+            console.log(name);
+            console.log(previousName);
+            console.log(jsonInput);
+            specialRemover('init');
+            cardCreatorInit(name, parent, Description, cardShape, jsonInput, previous, name);
+            nextSpecial(jsonInput, name);
+        }
+        mainDiv.addEventListener("click",toDoWhenNotVideLower);
+    }
+
+    const pretitreDiv = document.createElement("div");
+    pretitreDiv.className = 'pretitre';
+
+    const titreStrong = document.createElement('strong');
+    titreStrong.textContent = name;
+    pretitreDiv.appendChild(titreStrong);
+
+    const containerDiv = document.createElement('div');
+    containerDiv.className = 'container';
+
+    const defRapideH2 = document.createElement('h2');
+    defRapideH2.textContent = 'definition rapide';
+    containerDiv.appendChild(defRapideH2);
+
+    const defDiv = document.createElement('div');
+    defDiv.className = 'definition';
+
+    const h3Def = document.createElement('h3');
+    h3Def.textContent = Description;
+    defDiv.appendChild(h3Def);
+
+    mainDiv.appendChild(pretitreDiv);
+    mainDiv.appendChild(containerDiv);
+    mainDiv.appendChild(defDiv);
+    
+    newSpan.appendChild(mainDiv);
+
+    
+    initLi.appendChild(newSpan); //add the children in his parent div
+
+    const subElement = document.createElement('ul');
+    subElement.className = name;
+    initLi.appendChild(subElement);
+
+
+    const main = document.getElementsByClassName(parent)[0];
+    main.appendChild(initLi);
+}
+
 function cardCreatorForSearchBar(name, parent, Description, cardShape){
     /*
         Create the card for the tree
@@ -12,6 +79,7 @@ function cardCreatorForSearchBar(name, parent, Description, cardShape){
             jsonInput: array -> the current json file tree
     */
     const initDiv = document.createElement('div');
+    initDiv.className = 'divSearch';
 
     const newSpan = document.createElement("span"); //create the span card
     newSpan.className = 'cartSearch'; //use the 'artcart' to use the proper css to make the tree
@@ -49,13 +117,11 @@ function cardCreatorForSearchBar(name, parent, Description, cardShape){
     
     initDiv.appendChild(newSpan); //add the children in his parent div
 
-
-
     const main = document.getElementsByClassName(parent)[0];
     main.appendChild(initDiv);
 }
 
-function cardCreator(name, parent, Description, cardShape, jsonInput, previous){
+function cardCreator(name, parent, Description, cardShape, jsonInput, previous, previousName){
     /*
         Create the card for the tree
             name: str -> the name of the card
@@ -73,8 +139,10 @@ function cardCreator(name, parent, Description, cardShape, jsonInput, previous){
     mainDiv.className = cardShape;
     if (!(cardShape === 'vide-lower')){
         function toDoWhenNotVideLower(){
-            console.log(previous);
-            specialRemover(name, previous);
+            console.log(name);
+            console.log(previousName);
+            specialRemover(previousName);
+            cardCreator(name, parent, Description, cardShape, jsonInput, previous, previousName);
             next(jsonInput, name);
         }
         mainDiv.addEventListener("click",toDoWhenNotVideLower);
@@ -137,7 +205,8 @@ function cardCreatorVideLower(name, parent, Description, cardShape, jsonInput, p
     mainDiv.className = cardShape;
     if (!(cardShape === 'vide-lower')){
         function toDoWhenNotVideLower(){
-            specialRemover(name, previous);
+            specialRemover(previousName);
+            cardCreator(name, parent, Description, cardShape, jsonInput, previous, previousName);
             next(jsonInput, name);
         }
         mainDiv.addEventListener("click",toDoWhenNotVideLower);
@@ -244,16 +313,22 @@ function next(jsonInputFile, parentName){
     //remove previous card
     jsonInputFile['sub'].forEach(element => {
         if (element['card-identity'] === 'vide-lower'){
-            cardCreatorVideLower(element['name'], parentName, element['description'], element['card-identity'], element, jsonInputFile);
+            cardCreatorVideLower(element['name'], parentName, element['description'], element['card-identity'], element, jsonInputFile, parentName);
         }else{
-            cardCreator(element['name'], parentName, element['description'], element['card-identity'], element, jsonInputFile);
+            cardCreator(element['name'], parentName, element['description'], element['card-identity'], element, jsonInputFile, parentName);
         }
     })
 }
 
-function specialRemover(name, previous){
-    console.log(previous);
-    previousName = previous['name'];
+function specialRemover(previousName){
     toRemove = document.getElementsByClassName(previousName)[0];
     toRemove.innerHTML = '';
-    }
+}
+
+function nextSpecial(jsonInputFile, parentName){
+    //remove previous card
+    console.log(jsonInputFile);
+    jsonInputFile.forEach(element => {
+        cardCreator(element['name'], 'externatic', element['description'], element['card-identity'], element, jsonInputFile, 'externatic');
+    })
+}
