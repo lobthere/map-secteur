@@ -4,7 +4,6 @@
     margin: 0;
     padding: 20px;
     /* Plus besoin de !important ici car main.css est supprimé */
-    display: block; 
     text-align: center;
     width: 100%;
 }
@@ -170,6 +169,43 @@ h1 {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
+        /* carte descriptions */
+.divSearch{
+    width: 200px;
+    height: auto;
+    background-color:#8A2BE2;        
+    border-radius: 8%;
+    margin: 1% ;
+}
+
+.searchHolderJs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.pretitre strong {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: #ddd; 
+    display: block;
+    margin-bottom: 5px;
+}
+
+.container h2 {
+    font-size: 1.1em;
+    margin: 5px 0;
+    color: #fff;
+    font-weight: bold;
+}
+
+.definition {
+    font-size: 0.9em;
+    color: #f0f0f0;
+    margin: 8px 0;
+    font-weight: normal;
+    line-height: 1.4;
+}
 /* ----------------------------------------------------------- */
 /* --- AJOUTS RESPONSIVE (MOBILES & TABLETTES) --- */
 /* ----------------------------------------------------------- */
@@ -246,11 +282,3 @@ h1 {
         font-size: 0.7em;
     }
 }
-```
-
-### ⚠️ Très Important (Vérification HTML)
-
-Même si tu ne veux pas modifier le HTML, pour que ce code fonctionne sur un téléphone, il **FAUT ABSOLUMENT** que cette ligne soit présente dans le `<head>` de ton fichier `index.html` (elle y est souvent par défaut, mais vérifie) :
-
-```html
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
