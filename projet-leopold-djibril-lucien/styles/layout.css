@@ -64,6 +64,8 @@ h1 {
     justify-content: center;
     width: 100%;
     padding-bottom: 50px; /* Espace en bas de page */
+    flex-direction: column;
+
 }
 
 /* --- 4. STYLE DES CARTES --- */
@@ -99,7 +101,7 @@ h1 {
 /* --- EFFET AU SURVOL : ORANGE --- */
 .tf-nc > div:hover {
     background-color: #EA894B; /* Devient Orange */
-    transform: translateY(-5px);
+    transform: translateY(5px);
     box-shadow: 0 10px 15px rgba(0,0,0,0.2);
     z-index: 100;
 }
@@ -172,16 +174,20 @@ h1 {
         /* carte descriptions */
 .divSearch{
     width: 200px;
-    height: auto;
+    height: 200px;
     background-color:#8A2BE2;        
     border-radius: 8%;
     margin: 1% ;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .searchHolderJs{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .pretitre strong {
@@ -228,7 +234,6 @@ h1 {
         flex-direction: column; /* Empile les éléments verticalement */
         gap: 15px;
         width: 90%;
-        margin: 0 auto 30px auto; /* Centré */
     }
 
     #recherche {
@@ -281,4 +286,19 @@ h1 {
     .tf-nc > div .pretitre strong {
         font-size: 0.7em;
     }
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+}
+
+.arbreTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
