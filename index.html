@@ -3,71 +3,36 @@
   <head>
     <meta charset="UTF-8">
     <title>Carte des technologies</title>
-    <link rel="stylesheet" href="./projet-leopold-djibril-lucien/styles/stations.css">
-    <link rel="stylesheet" href="projet-leopold-djibril-lucien/styles/main.css">
+
     <link rel="stylesheet" href="projet-leopold-djibril-lucien/styles/layout.css">
     <link rel="stylesheet" href="https://unpkg.com/treeflex/dist/css/treeflex.css">
   </head>
   <body>
-        <header>
-          <h1>Carte des technologies</h1>
-        </header>
-        <main>
-          <div id="searchbar">
-            <label id="cherch" for="Recherche">Recherche</label>
-            <input type="text" name="Recherche" id="recherche">
-            <button id="search" value="1" accesskey="s">valider</button>
-            <br/><br/>
+    <header>
+      <div class="top">
+      <a href="https://www.externatic.fr/" >
+        <img id="logo-externatic" src="projet-leopold-djibril-lucien/styles/src/logo-externatic.svg">
+      </a>
+        <h1>Carte des technologies</h1>
+      </div>
+      </header>
+    <main>
+      <div id="searchbar">
+        <label id="cherch" for="Recherche">Recherche</label>
+        <input type="text" name="Recherche" id="recherche">
+        <button id="search" value="1" accesskey="s">valider</button>
+        <br/><br/>
+      </div>
+      <div class="searchHolderJs">
+
+      </div>
+        <article class="arbre">
+          <div class="tf-tree">
+            <ul class="init"></ul>
           </div>
-            <article class="arbre">
-              <div class="tf-tree">
-                <ul>
-                  <li>
-                    <span class="tf-nc">
-                      <article class="artcart">
-                        <div class="cart1">
-                            <div class="pretitre"> 
-                                <strong>backend</strong>
-                            </div>
-                            <div class="container">
-                                <h2> definition rapide :</h2>
-                            </div>
-                            <h3 class="definition">template...</h3>
-                            <span class="picto">
-                                <a href="projet-leopold-djibril-lucien/components/stations.html">
-                                  <img class="plus" src="projet-leopold-djibril-lucien/styles/src/16uMC.png">
-                                </a>
-                            </span>
-                        </div>
-                      </article>
-                    </span>
-                    <ul>
-                      <li class="tf-dashed-children">
-                        <span class="tf-nc">2</span>
-                        <ul>
-                          <li><span class="tf-nc">4</span></li>
-                          <li>
-                            <span class="tf-nc">5</span>
-                            <ul>
-                              <li><span class="tf-nc">9</span></li>
-                              <li><span class="tf-nc">10</span></li>
-                            </ul>
-                          </li>
-                          <li><span class="tf-nc">6</span></li>
-                        </ul>
-                      </li>
-                      <li class="tf-dotted-children">
-                        <span class="tf-nc">3</span>
-                        <ul>
-                          <li><span class="tf-nc">7</span></li>
-                          <li><span class="tf-nc">8</span></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </article>
-        </main>
+        </article>
+    </main>
   </body>
+  <script src="projet-leopold-djibril-lucien/scripts/json.js"></script>
+  <script src="projet-leopold-djibril-lucien/scripts/search.js"></script>
 </html>
