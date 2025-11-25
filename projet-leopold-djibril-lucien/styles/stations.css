@@ -85,7 +85,7 @@ artcart {
 
 .definition {
     /* Style du contenu/définition */
-    font-size: 11px;
+    font-size: 1em;
     color: #444;
     margin-top: 0;
     line-height: 1.5;
@@ -184,4 +184,8 @@ artcart {
     position: relative;
     margin-top:-100px;;
      right: -410px; /* distance depuis la droite */
+}
+
+h3{
+    font-size: 5px;
 }
