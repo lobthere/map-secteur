@@ -180,7 +180,7 @@ h1 {
     margin: 1% ;
     overflow: hidden;
     text-overflow: ellipsis;
-    transition: 500ms;
+    transition: 200ms;
 }
 
 .searchHolderJs{
