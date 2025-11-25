@@ -136,8 +136,6 @@ function cardCreator(name, parent, Description, cardShape, jsonInput, previous, 
     mainDiv.className = cardShape;
     if (!(cardShape === 'vide-lower')){
         function toDoWhenNotVideLower(){
-            console.log(name);
-            console.log(previousName);
             specialRemover(previousName);
             cardCreator(name, parent, Description, cardShape, jsonInput, previous, previousName);
             next(jsonInput, name);
@@ -324,7 +322,6 @@ function specialRemover(previousName){
 
 function nextSpecial(jsonInputFile, parentName){
     //remove previous card
-    console.log(jsonInputFile);
     jsonInputFile.forEach(element => {
         cardCreator(element['name'], 'externatic', element['description'], element['card-identity'], element, jsonInputFile, 'externatic');
     })
