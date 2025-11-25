@@ -11,7 +11,7 @@
 #logo-externatic{
     width: 200px;
 }
-.top
+
 h1 {
     font-size: 40px;
     font-family: serif;
@@ -76,9 +76,7 @@ h1 {
     margin: 0;
     width: fit-content;
 }
-
-/* La vraie carte visible */
-.cart1 {
+.tf-nc > div {
     width: 200px;
     padding: 15px;
     border-radius: 10px;
@@ -86,26 +84,31 @@ h1 {
     cursor: pointer;
     text-align: left;
     
-    /* Couleurs et transitions */
-    background-color: #8A2BE2; /* Violet par défaut */
+    /* --- COULEUR DE DÉPART : VIOLET --- */
+    background-color: #8A2BE2; 
     color: white;
+    
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    
+    /* --- TRANSITION FLUIDE --- */
     transition: all 0.3s ease;
     
     position: relative;
     z-index: 1;
 }
 
-/* Effet au survol */
-.cart1:hover {
-    background-color: #EA894B; /* Orange au survol */
+/* --- EFFET AU SURVOL : ORANGE --- */
+.tf-nc > div:hover {
+    background-color: #EA894B; /* Devient Orange */
     transform: translateY(-5px);
     box-shadow: 0 10px 15px rgba(0,0,0,0.2);
-    z-index: 100; /* Passe devant tout le reste */
+    z-index: 100;
 }
 
-/* Typographie interne de la carte */
-.cart1 .pretitre strong {
+/* --- TYPOGRAPHIE INTERNE --- */
+/* On adapte les sélecteurs pour qu'ils marchent avec notre nouvelle logique */
+
+.tf-nc > div .pretitre strong {
     text-transform: uppercase;
     font-size: 0.8em;
     color: #ddd; 
@@ -113,14 +116,14 @@ h1 {
     margin-bottom: 5px;
 }
 
-.cart1 .container h2 {
+.tf-nc > div .container h2 {
     font-size: 1.1em;
     margin: 5px 0;
     color: #fff;
     font-weight: bold;
 }
 
-.cart1 .definition {
+.tf-nc > div .definition {
     font-size: 0.9em;
     color: #f0f0f0;
     margin: 8px 0;
@@ -144,20 +147,22 @@ h1 {
     transition: transform 0.3s ease;
 }
 
-.cart1:hover .picto img {
-    transform: rotate(90deg); /* Petite animation sympa au survol */
+/* Rotation du picto au survol */
+.tf-nc > div:hover .picto img {
+    transform: rotate(90deg); 
 }
 
 /* --- 5. STYLE DES NOEUDS TREEFLEX --- */
-/* On retire le style par défaut des boites Treeflex */
 .tf-nc {
     border: none !important; 
     padding: 0 !important;
     background: transparent !important;
 }
 
-/* On remet un style simple JUSTE pour les chiffres (2, 3, 4...) qui n'ont pas de carte */
-.tf-nc:not(:has(.cart1)) {
+/* On remet une bordure blanche SEULEMENT si le noeud ne contient PAS de div (donc pour les chiffres 2, 3...)
+   Le sélecteur :not(:has(div)) permet de ne pas toucher à nos cartes violettes.
+*/
+.tf-nc:not(:has(div)) {
     border: 1px solid #555 !important;
     padding: 10px 15px !important;
     background-color: white !important;
