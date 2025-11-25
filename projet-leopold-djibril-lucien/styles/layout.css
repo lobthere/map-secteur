@@ -64,6 +64,8 @@ h1 {
     justify-content: center;
     width: 100%;
     padding-bottom: 50px; /* Espace en bas de page */
+    flex-direction: column;
+
 }
 
 /* --- 4. STYLE DES CARTES --- */
@@ -284,4 +286,19 @@ h1 {
     .tf-nc > div .pretitre strong {
         font-size: 0.7em;
     }
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+}
+
+.arbreTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
