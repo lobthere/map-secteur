@@ -16,46 +16,62 @@
                         "card-identity":"vide-bold",
                         "sub": [{
                                 "name": "Angular",
-                                "description": "template",
+                                "description": "Angular est un framework open-source développé par Google qui sert à créer des applications web modernes, dynamiques et robustes, principalement en TypeScript. Il est particulièrement utilisé pour construire des Single Page Applications (SPA), c’est-à-dire des sites où une seule page est chargée et le contenu change dynamiquement sans rechargement complet.",
+
                                 "card-identity": "vide-lower"
-                            },{
+                            },
+                            {
                                 "name": "Angular.js",
-                                "description": "template",
+                                "description": "AngularJS est un ancien framework JavaScript open source, créé par Google en 2009, conçu pour développer des applications web dynamiques, surtout des Single Page Applications (SPA). Il a été officiellement abandonné en 2022 et remplacé par Angular, une version plus moderne basée sur TypeScript.",
+
+
                                 "card-identity":"vide-lower"
                             },
                             {
                                 "name": "Ember.js",
-                                "description": "template",
+                                "description": "Ember.js est un framework JavaScript open source conçu pour créer des applications web dynamiques, surtout des Single Page Applications (SPA), avec une architecture bien structurée et des outils intégrés. Il a été créer par - Yehuda Katz, un développeur influent dans l’écosystème JavaScript.- Yehuda Katz, un développeur influent dans l’écosystème JavaScript. Il a été créer par Yehuda Katz (développeur influent dans l'écosystème Javascript) en 2011 ",
+
+
                                 "card-identity":"vide-lower"
                             },
                             {
                                 "name": "React.js",
-                                "description": "template",
+                                "description": "React.js est une bibliothèque JavaScript open source créée par Meta (anciennement Facebook) en 2013, utilisée pour construire des interfaces utilisateurs modernes et interactives. Elle est aujourd’hui l’une des technologies les plus populaires pour développer des applications web dynamiques. Réact.js a été par Meta(Facebook) et la communité open source en Mai 2013",
+
+
                                 "card-identity":"vide-lower"
                             },
                             {
                                 "name": "JSF/Jakarta faces",
-                                "description": "template",
+                                "description": "JSF (JavaServer Faces), aujourd’hui appelé Jakarta Faces, est un framework Java côté serveur qui permet de construire des interfaces utilisateur web basées sur des composants. - Il fournit un modèle composant-based : au lieu d’écrire directement du HTML, on assemble des composants (boutons, formulaires, tableaux, etc.) qui sont ensuite rendus en HTML.",
+
+
                                 "card-identity":"vide-lower"
                             },
                             {
                                 "name": "Vue.js",
-                                "description": "template",
+                                "description": "Vue.js est un framework JavaScript open‑source conçu pour créer des interfaces utilisateur et des applications web modernes, souvent des “Single Page Applications” (SPA).",
+
+
                                 "card-identity":"vide-lower"
                             },
                             {
                                 "name": "Svelte",
-                                "description": "template",
+                                "description": "Svelte est un framework JavaScript moderne pour créer des interfaces utilisateur et des applications web, mais avec une approche très différente de React, Vue ou Angular,- Svelte est souvent décrit comme un compiler plutôt qu’un framework classique. Svelte a été créer par  Rich Harris en 2016.",
+
                                 "card-identity":"vide-lower"
                             },
                             {
                                 "name": "Backbone.js",
-                                "description": "template",
+                                "description": "Backbone.js est une bibliothèque JavaScript créée en 2010 par Jeremy Ashkenas (aussi auteur de CoffeeScript et Underscore.js) qui aide à structurer le code des applications web.- Backbone.js n’est pas un framework complet comme Angular ou Vue, mais une librairie légère qui apporte des briques essentielles.",
+
+
                                 "card-identity":"vide-lower"
                             },
                             {
                                 "name": "Vanilla.js",
-                                "description": "template",
+                                "description": "Vanilla.js n’est pas un vrai framework ou une bibliothèque, mais un terme humoristique qui désigne JavaScript pur, sans aucun framework ni librairie externe.",
+
                                 "card-identity":"vide-lower"
                             }
 
@@ -71,19 +87,22 @@
                            "card-identity":"vide-bold",
                            "sub": [{
                                 "name": "Bootstrap",
-                                "description": "template",
+                                "description": "Bootstrap est un framework front-end open source qui permet de créer rapidement des sites web modernes, responsives et esthétiques grâce à des composants préconstruits en HTML, CSS et JavaScript. Il a été créer en 2011 par deux ingénieurs de Twitter, Mark Otto et Jacob Thornton.",
+
                                 "card-identity":"vide-lower"
                             },{
                                 "name": "Foundation",
-                                "description": "template",
+                                "description": "Foundation est un framework front-end open source développé par ZURB, conçu pour créer des sites web modernes, responsifs et accessibles. Sa première version est sorti en 2011 comme Bootstrap",
                                 "card-identity":"vide-lower"
                             },{
                                 "name": "Less",
-                                "description": "template",
+                                "description": "Less (Leaner Style Sheets) est un langage qui étend le CSS avec des fonctionnalités avancées comme les variables, les fonctions, l’imbrication et les mixins, ce qui rend l’écriture et la maintenance des feuilles de style beaucoup plus efficaces.- Less est une extension de CSS, créée en 2009 par Alexis Sellier. Il est écrit en JavaScript et fonctionne sur toutes les plateformes.",
+
+
                                 "card-identity":"vide-lower"
                             },{
                                 "name": "Sass",
-                                "description": "template",
+                                "description": "Sass (Syntactically Awesome Style Sheets) est un préprocesseur CSS qui ajoute des fonctionnalités avancées comme les variables, l’imbrication, les mixins et les fonctions, permettant d’écrire du CSS plus structuré, réutilisable et facile à maintenir.",
                                 "card-identity":"vide-lower"
                             }]
                         }]
@@ -96,11 +115,12 @@
                         "card-identity":"vide-bold",
                         "sub": [{
                                 "name": "Bootstrap",
-                                "description": "template",
+                                "description": "Bootstrap est un framework front-end open source qui permet de créer rapidement des sites web modernes, responsives et esthétiques grâce à des composants préconstruits en HTML, CSS et JavaScript. Il a été créer en 2011 par deux ingénieurs de Twitter, Mark Otto et Jacob Thornton.",
+
                                 "card-identity":"vide-lower"
                             },{
                                 "name": "Foundation",
-                                "description": "template",
+                                "description": "Foundation est un framework front-end open source développé par ZURB, conçu pour créer des sites web modernes, responsifs et accessibles. Sa première version est sorti en 2011 comme Bootstrap",
                                 "card-identity":"vide-lower"
                             }]
                     }]
@@ -110,30 +130,30 @@
                     "description": "Le Java est un langage de programmation extrêmement polyvalent , il peut être utilisé pour programmer des logiciels et des applications  pour de nombreux systèmes d'exploitation et appareils différents, y compris les objets connectés, les téléphones mobiles et les ordinateurs. java a été conçu James Gosling en 1995  pour éviter les erreurs critiques et les failles de sécurité. Ne  pas confondre Java avec JavaScript !  Même si leurs noms se ressemblent ,Java est utilisé pour des applications complexes, souvent côté serveur ou mobile. Alors que  JavaScript est utilisé pour rendre les pages web interactives, côté navigateur. Java est utilisé pour la conception des jeux comme Minecraft,  des applications Android, des logiciels d’entreprise, et même des systèmes embarqués .",
                     "sub": [{
                         "name": "GWT",
-                        "description": "template",
+                        "description": "GWT (Google Web Toolkit) est un framework open source développé par Google qui permet de créer des applications web dynamiques en écrivant du code en Java, lequel est ensuite compilé automatiquement en JavaScript compatible avec tous les navigateurs.",
                         "card-identity":"vide-lower"
                     },{
                         "name": "JSF",
-                        "description": "template",
+                        "description": "JSF (JavaServer Faces) est un framework Java officiel pour développer des applications web avec une architecture basée sur des composants et le modèle MVC. Il fait partie de la plateforme Java EE (Enterprise Edition) et est utilisé pour créer des interfaces utilisateur dynamiques et réutilisables.",
+
                         "card-identity":"vide-lower"
                     },{
                         "name": "Java FX",
-                        "description": "template",
+                        "description": "JavaFX est une bibliothèque et un framework Java moderne pour créer des interfaces graphiques riches (GUI) sur desktop, web et mobile. Il est le successeur officiel de Swing et fait partie du projet open source OpenJFX, maintenu par Oracle et la communauté.",
+
                         "card-identity":"vide-lower"
                     },{
                         "name": "Vaadin",
-                        "description": "template",
+                        "description": "Vaadin est un framework Java open‑source qui permet de créer des applications web modernes avec une interface riche, en écrivant principalement du code en Java (sans avoir besoin de manipuler directement HTML, CSS ou JavaScript).",
                         "card-identity":"vide-lower"
                     }]
                     },{
                     "name": "C#",
                     "card-identity":"vide-bold",
-                    "description": "Le C sharp est un langage de programmation moderne créé par Microsoft en 2001, principalement utilisé avec 
-                            la plateforme .NET pour développer des applications Windows, mobiles, web et même des jeux vidéo.
-                            Le C sharp est un langage proche de Java et C++ car Sa syntaxe ressemble à celle de Java et C++."
+                    "description": "Le C sharp est un langage de programmation moderne créé par Microsoft en 2001, principalement utilisé avec la plateforme .NET pour développer des applications Windows, mobiles, web et même des jeux vidéo.Le C sharp est un langage proche de Java et C++ car Sa syntaxe ressemble à celle de Java et C++.",
                     "sub": [{
                         "name": "Blazor",
-                        "description": "template",
+                        "description": "Blazor est un framework web open source développé par Microsoft qui permet de créer des applications web interactives en utilisant C# au lieu de JavaScript.",
                         "card-identity":"vide-lower"
                     }]
                     },{
@@ -153,23 +173,31 @@
                             "card-identity":"vide-bold",
                             "sub": [{
                                 "name": "Figma",
-                                "description": "template",
+                                "description": "Figma est un outil de design collaboratif en ligne qui permet de créer des interfaces, des maquettes et des prototypes interactifs directement dans le navigateur.",
+
                                 "card-identity":"vide-lower"
                             },{
                                 "name": "Adobe XD",
-                                "description": "template",
+                                "description": "Adobe XD est un logiciel de design et de prototypage d’interfaces (UI/UX) créé par Adobe, utilisé pour concevoir des sites web, des applications mobiles et des expériences interactives. - XD signifie Experience Design, il a été lancé en 2016 par Adobe.",
+
+
                                 "card-identity":"vide-lower"
                             },{
                                 "name": "Balsamiq",
-                                "description": "template",
+                                "description": "- Balsamiq est un outil de design qui aide à représenter visuellement la structure d’une page ou d’une application avant de passer au design final.  Il se concentre sur les wireframes , des maquettes simples, en noir et blanc, qui montrent la disposition des éléments (menus, boutons, formulaires, images, etc.).",
+
                                 "card-identity":"vide-lower"
                             },{
                                 "name": "Sketch",
-                                "description": "template",
+                                "description": "Sketch est un logiciel de design vectoriel principalement utilisé pour créer des interfaces utilisateur (UI) et des expériences utilisateur (UX), comme des maquettes de sites web et d’applications mobiles. Il a été créé en 2010 par la société Bohemian Coding.",
+
+
                                 "card-identity":"vide-lower"
                             },{
                                 "name": "InVision",
-                                "description": "template",
+                                "description": "InVision est une plateforme de design et de prototypage collaboratif qui permet aux équipes de créer, partager et tester des maquettes interactives pour sites web et applications. Invision a été  Créé en 2011 par Clark Valberg.",
+
+                                
                                 "card-identity":"vide-lower"
                             }]
                         }]
