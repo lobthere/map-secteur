@@ -77,12 +77,21 @@ function cardCreatorForSearchBar(name, parent, Description, cardShape){
     */
     const initDiv = document.createElement('div');
     initDiv.className = 'divSearch';
+    
 
     const newSpan = document.createElement("span"); //create the span card
     newSpan.className = 'cartSearch'; //use the 'artcart' to use the proper css to make the tree
     
     const mainDiv = document.createElement("div"); // create the main div balise
     mainDiv.className = cardShape;
+
+    function ifClicked(){
+        const temp = document.getElementsByClassName('resultIfClicked')[0];
+        temp.innerHTML = '';
+        cardCreatorForSearchBar(name, 'resultIfClicked', Description, cardShape);
+    }
+
+    mainDiv.addEventListener('click', ifClicked);
 
     const pretitreDiv = document.createElement("div");
     pretitreDiv.className = 'pretitre';
